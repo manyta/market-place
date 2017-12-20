@@ -25,6 +25,9 @@
     color: #a0a0a0;
     position: relative;
 }
+.notification .icon:hover i{
+    color: #263238;
+} 
 .notification .icon .tag-icon{
     width: 18px;
     height: 18px;
