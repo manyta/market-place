@@ -1,0 +1,49 @@
+.inner-form .sub-inner{
+    width: 670px;
+    height: 56px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 10px rgba(124, 178, 64, 0.75);
+    box-shadow: 0px 1px 10px rgba(124, 178, 64, 0.75);
+    background-color: #fff;
+    padding: 0 25px;
+    font: 500 14px/1 'Roboto', sans-serif;
+    letter-spacing: .1em;
+}
+.inner-form input[type="text"]::-webkit-input-placeholder{
+    color: #90a4ae;
+}
+.inner-form input[type="text"]:-ms-input-placeholder{
+    color: #90a4ae;
+}
+.inner-form input[type="text"]::-ms-input-placeholder{
+    color: #90a4ae;
+}
+.inner-form input[type="text"]::placeholder{
+    color: #90a4ae;
+}
+.form-message{
+    border: 1px solid transparent;
+    height: 46px;
+    padding: 18px 16px;
+    color: #7a7a7a;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: #f1f4f5;
+    font: 400 15px/1 'Roboto', sans-serif;
+}
+.message textarea{
+    min-height: 193px; 
+    width: auto;
+}
+textarea.form-message{
+    padding-top: 16px;
+}
+.form-default{
+    border: 1px solid #dedede;
+    height: 40px;
+    padding: 14px 18px;
+    color: #707070;
+    background-color: #f9f9f9;
+    font: 400 15px/1 'Roboto', sans-serif;
+}
