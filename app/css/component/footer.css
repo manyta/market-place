@@ -1,0 +1,10 @@
+.footer{
+    background-color: #263238;
+}
+.footer .row{
+    padding: 116px 0 99px 0;
+}
+.copyright{
+    padding: 27px 0 35px 0;
+    border-top: 1px solid #424d53;
+}
