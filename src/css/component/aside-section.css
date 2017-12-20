@@ -1,0 +1,20 @@
+/* ========== Aside Section ========== */
+.aside-wrap {
+    width: 270px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.aside-section {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 30px;
+    color: #263238;
+}
+.aside-section .aside-item {
+    border-top: 1px solid #dde3e8;
+}
+.aside-section .aside-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+/* ========== Aside Section End ========== */
