@@ -17,4 +17,8 @@
     background-color: #e74c3c;
     color: #fff;
 }
+.pagination li:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
 /* ========== pagination end ========== */
