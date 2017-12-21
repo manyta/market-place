@@ -1,20 +1,12 @@
 /* ========== Card-Item ========== */
-.item {
+.item-wrap {
     box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
-}
-.item:active {
-    width: 100%;
-    flex-direction: row;
-}
-.item:active .item-description .item-info-fullblock {
-    display: inline-block;
 }
 .item-description {
     padding: 0 15px;
 }
 .item-description .item-info{
     padding: 30px 0 20px;
-    border-bottom: 1px solid #e7ecf2;
 }
 .item-description .item-info-fullblock {
     display: none;
@@ -34,6 +26,7 @@
 }
 .item-author {
     padding: 15px 0 20px;
+    border-top: 1px solid #e7ecf2;
 }
 .item-author-name {
     font-size: 14px;
@@ -47,4 +40,63 @@
     color: #263238;
     font-size: 12px;
 }
+.item-author-icon-full {
+    display: none;
+}
 /* ========== Card-Item End ========== */
+/* ========== Card-Item :Active ========== */
+.row:active {
+    flex-direction: column;
+}
+.item:active {
+    width: 100%;
+}
+.item-wrap:active {
+    display: flex;
+    box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
+}
+.item:active + .item {
+    margin-top: 30px;
+}
+.item:active .item-description {
+    margin-left: 30px;
+}
+.item:active .item-info-fullblock {
+    display: block;
+    padding: 20px 0;
+}
+.item:active .item-info-fullblock-text {
+    color: #70838d;
+    font-size: 14px;
+}
+.item:active .item-info-fullblock-sales {
+    color: #aeb4bb;
+    font-size: 13px;
+    margin-left: 130px;
+}
+.item:active .item-author-icon-full {
+    display: flex;
+}
+.item:active .item-author-icon-full li + li {
+    margin-left: 15px;
+}
+.item:active .item-author-icon-full i {
+    color: #8bc34a;
+}
+.item:active .item-author-icon-full li {
+    color: #263238;
+}
+.item:active .item-author {
+    margin-right: auto;
+}
+
+.Rectangle_54_copy {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
+    position: absolute;
+    left: 674px;
+    top: 572px;
+    width: 869px;
+    height: 180px;
+    z-index: 399;
+}
