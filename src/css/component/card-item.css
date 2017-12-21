@@ -1,12 +1,8 @@
-/* ========== card ========== */
-.item{
-    flex-direction: column;
-}
-.item .item-img{
-    height: 100px;
-    background-color: gray;
-}
-.item .item-description{
-    height: 200px;
-    background-color: lightblue;
-}
+/* ========== Card-Item ========== */
+/*.item .item-img{*/
+/*}*/
+/*.item .item-description{*/
+    /*height: 200px;*/
+    /*background-color: lightblue;*/
+/*}*/
+/* ========== Card-Item End ========== */

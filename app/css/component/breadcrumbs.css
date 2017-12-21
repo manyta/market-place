@@ -1,8 +1,5 @@
 /* ========== breadcrumbs ========== */
 .breadcrumbs {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     color: #b0bec5;
 }
 .breadcrumbs li + li {
