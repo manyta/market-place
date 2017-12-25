@@ -1,0 +1,52 @@
+/* ========== Card-Item ========== */
+.item-wrap {
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+}
+.item-description {
+    padding: 0 15px;
+}
+.item-description .item-info{
+    padding: 30px 0 20px;
+}
+.item-description .item-info-fullblock {
+    display: none;
+}
+.item-info-title {
+    font-size: 18px;
+    color: #263238;
+}
+.item-info-subtitle {
+    font-size: 14px;
+    color: #8bc34a;
+    padding-top: 10px;
+}
+.item-info-price {
+    font-weight: 700;
+    font-size: 20px;
+}
+.item-author {
+    padding: 15px 0 20px;
+    border-top: 1px solid #e7ecf2;
+}
+.item-author-name {
+    font-size: 14px;
+    color: #546e7a;
+}
+.item-author-star {
+    font-size: 12px;
+    color: #ffa726;
+}
+.item-author-number {
+    color: #263238;
+    font-size: 12px;
+}
+.item-author-icon-full {
+    display: none;
+}
+.item-bracket-grey {
+    color: #b0bec5;
+}
+/* ========== Card-Item End ========== */

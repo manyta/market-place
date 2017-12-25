@@ -43,6 +43,9 @@
 .item-author-icon-full {
     display: none;
 }
+.item-bracket-grey {
+    color: #b0bec5;
+}
 /* ========== Card-Item End ========== */
 /* ========== Card-Item :Active ========== */
 .row:active {
@@ -88,15 +91,4 @@
 }
 .item:active .item-author {
     margin-right: auto;
-}
-
-.Rectangle_54_copy {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 16px 20px 0px rgba(216, 216, 216, 0.75);
-    position: absolute;
-    left: 674px;
-    top: 572px;
-    width: 869px;
-    height: 180px;
-    z-index: 399;
 }
