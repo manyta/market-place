@@ -10,10 +10,10 @@
     overflow: hidden;
     padding: 27px 0;
 }
-.top-info{
-    width: 735px;
+.notification{
+    padding: 0 20px 0 30px;
 }
-.notification .icon{
+.notification .icon-circle{
 	width: 34px;
 	height: 34px;
 	text-align: center;
@@ -25,10 +25,10 @@
     color: #a0a0a0;
     position: relative;
 }
-.notification .icon:hover i{
+.notification .icon-circle:hover i{
     color: #263238;
 } 
-.notification .icon .tag-icon{
+.notification .icon-circle .tag-icon{
     width: 18px;
     height: 18px;
     font-size: 11px;
@@ -52,7 +52,10 @@
     background-color: #95c85a;
 }
 .user-controls{
-    width: 143px;
+    padding-right: 29px;
+}
+.user-data{
+    padding: 0 14px;
 }
 .bottom-header{
     background-color: #263238;
