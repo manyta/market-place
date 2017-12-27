@@ -12,6 +12,7 @@
 .subtitle {
 	font-size: 20px;
 	font-weight: 500;
+	color: #fff;
 }
 
 .why-choose-subtitle {
@@ -22,5 +23,8 @@
 .footer-title {
 	font-size: 22px;
 	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 25px;
 }
 /* ===== TITLE END ===== */
