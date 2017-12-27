@@ -32,6 +32,9 @@
 .footer .footer-nav a + a{
     margin-top: 20px;
 }
+.footer .footer-nav a:hover{
+    color: #8bc34a;
+}
 .footer .footer-nav .fa{
     margin-right: 16px;
     color: #8bc34a;
@@ -52,6 +55,30 @@
 }
 .footer .subtitle{
     margin-bottom: 10px;
+}
+.footer .subscribe-form .subscribe-form-newsletter input{
+    background-color: #2f3c43;
+    height: 40px;
+    color: #697378;
+    border: 1px solid transparent;
+    padding-right: 43px;
+    width: 260px;
+    padding: 15px;
+}
+.subscribe-form-newsletter{
+    position: relative;
+}
+.footer .subscribe-form .subscribe-form-newsletter button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 43px;
+    text-align: center;
+    background-color: #8bc34a;
+    color: #fff;
+    border: none;
+    font-size: 20px;
 }
 .copyright{
     padding: 27px 0 35px 0;
