@@ -1,6 +1,7 @@
 /* ===== FOOTER ===== */
 .footer{
     background-color: #263238;
+    color: #b7c3c8;
 }
 .footer .row{
     padding: 116px 0 99px 0;
@@ -82,5 +83,6 @@
 .copyright{
     padding: 27px 0 35px 0;
     border-top: 1px solid #424d53;
+    color: #919699;
 }
 /* ===== FOOTER END ===== */
