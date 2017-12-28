@@ -1,0 +1,59 @@
+.euro, .flash, .green, .leef, .smile, .facebook, .in, .tweet, .p{
+  background: url(sprites.png) no-repeat;
+  display: inline-block;
+}
+
+.euro{
+	background-position: -7px 0;
+	width: 34px;
+	height: 37px;
+}
+
+.flash{
+	background-position: -58px 0;
+	width: 34px;
+	height: 37px;
+}
+
+.green{
+	background-position: -107px 0;
+	width: 34px;
+	height: 37px;
+}
+
+.leef{
+	background-position: -158px 0;
+	width: 34px;
+	height: 37px;
+}
+
+.smile{
+	background-position: -205px 0;
+	width: 34px;
+	height: 37px;
+}
+
+.facebook{
+	background-position: 0 -51px ;
+	width: 54px;
+	height: 50px;
+}
+
+.in{
+	background-position: -55px -51px ;
+	width: 54px;
+	height: 50px;
+}
+
+.tweet{
+	background-position: -110px -51px ;
+	width: 54px;
+	height: 50px;
+}
+
+.p{
+	background-position: -166px -52px ;
+	width: 54px;
+	height: 50px;
+}
+

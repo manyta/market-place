@@ -1,0 +1,30 @@
+/* ===== TITLE ===== */
+.title {
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.welcome-title {
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+}
+
+.why-choose-subtitle {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.footer-title {
+	font-size: 22px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 25px;
+}
+/* ===== TITLE END ===== */

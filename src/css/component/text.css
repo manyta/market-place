@@ -1,0 +1,57 @@
+/********Text color start******/
+.txt-red {
+  color: #e74c3c;
+}
+
+.txt-gray-blue {
+  color: #546e7a;
+}
+
+.txt-white {
+  color: #fff;
+}
+
+.txt-dark {
+  color: #263238;
+}
+
+.txt-green {
+  color: #8bc34a;
+}
+
+.txt-grey {            /* footer*/
+  color: #b7c3c8;
+}
+
+.txt-dark-grey {            /* footer*/
+  color: #919699;
+}
+
+.txt-black {            /* footer*/
+  color: #000;
+}
+/********Text color end******/
+
+/********Text weight start******/
+.text-reg {
+  font-weight: 400;
+}
+
+.text-med {
+  font-weight: 500;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+/********Text weight end******/
+
+/********Text size start******/
+.text-size-common {
+  font-size: 16px;
+}
+
+.text-size-small {
+  font-size: 15px;
+}
+/********Text size end******/

@@ -1,0 +1,32 @@
+/********Background color start******/
+
+.bg-light-gray {
+  background-color: #f4f6f5;
+}
+
+.bg-gray {
+  background-color: #b5b5b5;
+}
+
+.bg-dark {
+  background-color: #263238;
+}
+
+.bg-green {
+  background-color: #8bc34a;
+}
+
+.bg-red {
+  background-color: #e74c3c;
+}
+
+.bg-form-light{
+  background-color: #f1f4f5;
+}
+
+
+.bg-form-dark{
+  background-color: #2f3c43;
+}
+
+/********Background color end******/
