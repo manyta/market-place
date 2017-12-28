@@ -1,0 +1,68 @@
+.table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table th {
+	text-align: left;
+}
+
+.table tbody tr + tr td {
+	border-top: 1px solid #eee;
+}
+
+.table tbody tr:nth-child(even) {
+	background-color: #fbfbfb;
+}
+
+.table-sales thead th {
+	background-color: #455a64;
+	color: #fff;
+	font-weight: 400;
+	padding: 22px 0;
+}
+
+.table-sales thead th:first-child {
+	text-align: center;
+}
+
+
+.table-sales tbody td {
+	padding: 15px 0;
+}
+
+.table-sales tbody td:first-child {
+	text-align: center;
+}
+
+.table-sales .avatar {
+	background-color: #b5b5b5;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+}
+
+.withdrawl-table td, th{
+	padding: 15px 20px;
+}
+
+.withdrawl-table tr>*:first-child {
+	font-weight: 500
+}
+
+.withdrawl-table tr>*:nth-child(2) {
+	font-weight: 400;
+}
+
+.withdrawl-table tr>*:nth-child(3) {
+	font-weight: 700;
+}
+
+.withdrawl-table tr>*:nth-child(4) {
+	font-weight: 700;
+}
+
+.withdrawl-table tr>td:nth-child(4) {
+	color: #8bc34a;
+}
