@@ -1,15 +1,103 @@
-/* ========== card ========== */
-.item{
+/* ========== Card-Item ========== */
+.item-wrap {
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+}
+.item-description {
+    padding: 0 15px;
+}
+.item-description .item-info{
+    padding: 30px 0 20px;
+}
+.item-description .item-info-fullblock {
+    display: none;
+}
+.item-info-title {
+    font-size: 18px;
+    color: #263238;
+}
+.item-info-subtitle {
+    font-size: 14px;
+    color: #8bc34a;
+    padding-top: 10px;
+}
+.item-info-price {
+    font-weight: 700;
+    font-size: 20px;
+}
+.item-author {
+    padding: 15px 0 20px;
+    border-top: 1px solid #e7ecf2;
+}
+.item-author-name {
+    font-size: 14px;
+    color: #546e7a;
+}
+.item-author-star {
+    font-size: 12px;
+    color: #ffa726;
+}
+.item-author-number {
+    color: #263238;
+    font-size: 12px;
+}
+.item-author-icon-full {
+    display: none;
+}
+.item-bracket-grey {
+    color: #b0bec5;
+}
+/* ========== Card-Item End ========== */
+/* ========== Card-Item :Active ========== */
+.row:active {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.item .item-img{
-    height: 100px;
-    background-color: gray;
+.item:active {
+    width: 100%;
 }
-.item .item-description{
-    height: 200px;
-    background-color: lightblue;
+.item-wrap:active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
+    box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
+}
+.item:active + .item {
+    margin-top: 30px;
+}
+.item:active .item-description {
+    margin-left: 30px;
+}
+.item:active .item-info-fullblock {
+    display: block;
+    padding: 20px 0;
+}
+.item:active .item-info-fullblock-text {
+    color: #70838d;
+    font-size: 14px;
+}
+.item:active .item-info-fullblock-sales {
+    color: #aeb4bb;
+    font-size: 13px;
+    margin-left: 130px;
+}
+.item:active .item-author-icon-full {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.item:active .item-author-icon-full li + li {
+    margin-left: 15px;
+}
+.item:active .item-author-icon-full i {
+    color: #8bc34a;
+}
+.item:active .item-author-icon-full li {
+    color: #263238;
+}
+.item:active .item-author {
+    margin-right: auto;
 }

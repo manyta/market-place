@@ -4,8 +4,6 @@
     border: 1px solid rgb(220, 220, 220);
 }
 .aside-section {
-    display: flex;
-    flex-direction: column;
     padding: 25px 30px;
     color: #263238;
 }
