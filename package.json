@@ -10,14 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
-<<<<<<< HEAD
     "gulp-autoprefixer": "^4.0.0",
     "gulp-tinypng": "^1.0.2",
     "gulp.spritesmith": "^6.7.0",
     "merge-stream": "^1.0.1"
-  }
-=======
-    "gulp-autoprefixer": "^4.0.0"
   },
   "repository": {
     "type": "git",
@@ -28,5 +24,4 @@
   },
   "homepage": "https://github.com/manyta/market-place#readme",
   "description": ""
->>>>>>> 75332280458d3c785bc56c13df70c71827c9ee7e
 }
