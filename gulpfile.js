@@ -40,7 +40,7 @@ gulp.task('tinypng', function () {
         'src/img/**/*.jpg',
         'src/img/**/*.png'
     ])
-    .pipe(tinypng('Zxh40FVUcfBm5LOczP7cBUyKmK6s-'))
+    .pipe(tinypng('Wk9bCQCit0T-LgoU3O6dqSULozXUvjZX'))
     .pipe(gulp.dest('app/img/'));
 });
 

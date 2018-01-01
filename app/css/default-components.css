@@ -331,7 +331,7 @@
 /*}*/
 /*!* ===== Card-Item End ===== *!*/
 /* ===== Card-Item :Active ===== */
-.row:active {
+.row-active:active {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -546,6 +546,7 @@ input[type="file"] + label{
 .pagination li:hover {
     background-color: #e74c3c;
     color: #fff;
+    cursor: pointer;
 }
 /* ===== Pagination end ===== */
 

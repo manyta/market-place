@@ -1,0 +1,11 @@
+/* ===== 04_all new items start ===== */
+.subheader {
+    margin-top: 150px;
+}
+.row + .row {
+    margin-top: 30px;
+}
+.pagination-wrap {
+    padding: 60px 0 110px;
+}
+/* ===== 04_all new items start ===== */
