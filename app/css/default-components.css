@@ -80,21 +80,18 @@
 /* ===== Header end ===== */
 
 /* ===== Aside Section ===== */
-.aside-wrap {
-    width: 270px;
+.aside{
     border: 1px solid rgb(220, 220, 220);
 }
 .aside-section {
     padding: 25px 30px;
     color: #263238;
 }
-.aside-section .aside-item {
-    border-top: 1px solid #dde3e8;
-}
 .aside-section .aside-title {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dde3e8;
 }
 /* ===== Aside Section End ===== */
 
@@ -125,14 +122,22 @@
 /* ===== Breadcrumbs ===== */
 .breadcrumbs {
     color: #b0bec5;
+    padding: 45px 0;
+    position: relative;
+}
+.breadcrumbs::before {
+    content: '-';
+    color: #8bc34a;
+    left: 47px;
+    position: absolute;
 }
 .breadcrumbs li + li {
-    margin-left: 8px;
+    margin-left: 20px;
 }
-.breadcrumbs .breadcrumbs-line {
-    color: #8bc34a;
-}
-.breadcrumbs li:active {
+/*.breadcrumbs .breadcrumbs-line {*/
+    /*color: #8bc34a;*/
+/*}*/
+.breadcrumbs .breadcrumbs-active{
     color: #263238;
 }
 /* ===== Breadcrumbs end ===== */
@@ -220,10 +225,13 @@
 
 /* ===== Card-Item ===== */
 .item-wrap {
-    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
-    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    border: 1px solid #ebeeef;
     margin-left: auto;
     margin-right: auto;
+}
+.item-wrap:hover {
+    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
 }
 .item-description {
     padding: 0 15px;
@@ -254,6 +262,7 @@
 .item-author-name {
     font-size: 14px;
     color: #546e7a;
+    margin-left: 12px;
 }
 .item-author-star {
     font-size: 12px;
@@ -270,126 +279,57 @@
     color: #b0bec5;
 }
 /* ===== Card-Item End ===== */
-
-/* ===== Card-Item Vertical ===== */
-.row-item-vertical {
-    border: 1px solid #dfdfdf;
-    max-width: 270px;
-}
-.row-item-vertical-title {
-    font-size: 20px;
-    color: #263238;
-    font-weight: 700;
-    text-align: center;
-    padding: 25px 0;
-}
-.item-wrap {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-}
+/* Два раза ===== Card-Item =====  */
+/*!* ===== Card-Item ===== *!*/
+/*.item-wrap {*/
+    /*box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);*/
+/*}*/
 /*.item-description {*/
     /*padding: 0 15px;*/
 /*}*/
-.item-img {
-    border-top: 1px solid #e7ecf2;
-    padding-top: 25px;
-}
-.item-description .item-info{
-    padding: 30px 0 20px;
-}
-.item-description .item-info-fullblock {
-    display: none;
-}
-.item-info-title {
-    font-size: 18px;
-    color: #263238;
-}
-.item-info-subtitle {
-    font-size: 14px;
-    color: #8bc34a;
-    padding-top: 10px;
-}
-.item-info-price {
-    font-weight: 700;
-    font-size: 20px;
-}
-.item-author {
-    padding: 15px 0 20px;
+/*.item-description .item-info{*/
+    /*padding: 30px 0 20px;*/
+/*}*/
+/*.item-description .item-info-fullblock {*/
+    /*display: none;*/
+/*}*/
+/*.item-info-title {*/
+    /*font-size: 18px;*/
+    /*color: #263238;*/
+/*}*/
+/*.item-info-subtitle {*/
+    /*font-size: 14px;*/
+    /*color: #8bc34a;*/
+    /*padding-top: 10px;*/
+/*}*/
+/*.item-info-price {*/
+    /*font-weight: 700;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.item-author {*/
+    /*padding: 15px 0 20px;*/
     /*border-top: 1px solid #e7ecf2;*/
-}
-.item-author-name {
-    font-size: 14px;
-    color: #546e7a;
-}
-.item-author-star {
-    font-size: 12px;
-    color: #ffa726;
-}
-.item-author-number {
-    color: #263238;
-    font-size: 12px;
-}
-.item-author-icon-full {
-    display: none;
-}
-.item-bracket-grey {
-    color: #b0bec5;
-}
-/* ===== Card-Item Vertical End ===== */
-
-/* ===== Card-Item ===== */
-.item-wrap {
-    -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
-    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
-}
-.item-description {
-    padding: 0 15px;
-}
-.item-description .item-info{
-    padding: 30px 0 20px;
-}
-.item-description .item-info-fullblock {
-    display: none;
-}
-.item-info-title {
-    font-size: 18px;
-    color: #263238;
-}
-.item-info-subtitle {
-    font-size: 14px;
-    color: #8bc34a;
-    padding-top: 10px;
-}
-.item-info-price {
-    font-weight: 700;
-    font-size: 20px;
-}
-.item-author {
-    padding: 15px 0 20px;
-    border-top: 1px solid #e7ecf2;
-}
-.item-author-name {
-    font-size: 14px;
-    color: #546e7a;
-}
-.item-author-star {
-    font-size: 12px;
-    color: #ffa726;
-}
-.item-author-number {
-    color: #263238;
-    font-size: 12px;
-}
-.item-author-icon-full {
-    display: none;
-}
-.item-bracket-grey {
-    color: #b0bec5;
-}
-/* ===== Card-Item End ===== */
-
+/*}*/
+/*.item-author-name {*/
+    /*font-size: 14px;*/
+    /*color: #546e7a;*/
+    /*margin-left: 12px;*/
+/*}*/
+/*.item-author-star {*/
+    /*font-size: 12px;*/
+    /*color: #ffa726;*/
+/*}*/
+/*.item-author-number {*/
+    /*color: #263238;*/
+    /*font-size: 12px;*/
+/*}*/
+/*.item-author-icon-full {*/
+    /*display: none;*/
+/*}*/
+/*.item-bracket-grey {*/
+    /*color: #b0bec5;*/
+/*}*/
+/*!* ===== Card-Item End ===== *!*/
 /* ===== Card-Item :Active ===== */
 .row:active {
     -webkit-box-orient: vertical;
