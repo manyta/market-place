@@ -80,18 +80,36 @@
 /* ===== Header end ===== */
 
 /* ===== Aside Section ===== */
-.aside{
-    border: 1px solid rgb(220, 220, 220);
-}
 .aside-section {
+    border: 1px solid rgb(220, 220, 220);
     padding: 25px 30px;
     color: #263238;
+}
+.aside-section + .aside-section {
+    margin-top: 30px;
+}
+.item-wrap-aside + .item-wrap-aside {
+    border-top: 1px solid #e7ecf2;
 }
 .aside-section .aside-title {
     font-size: 20px;
     font-weight: 700;
     padding-bottom: 20px;
     border-bottom: 1px solid #dde3e8;
+}
+.aside-item li {
+    margin-top: 30px;
+}
+.aside .item-description {
+    padding: 0px;
+}
+.aside .item-img-vertical {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 27px;
+}
+.aside .item-author-vertical {
+    padding: 15px 0 20px;
 }
 /* ===== Aside Section End ===== */
 
@@ -134,9 +152,6 @@
 .breadcrumbs li + li {
     margin-left: 20px;
 }
-/*.breadcrumbs .breadcrumbs-line {*/
-    /*color: #8bc34a;*/
-/*}*/
 .breadcrumbs .breadcrumbs-active{
     color: #263238;
 }
@@ -224,11 +239,10 @@
 /* ===== Card-Item ===== */
 .item-wrap {
     border: 1px solid #ebeeef;
-    margin-left: auto;
-    margin-right: auto;
+    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
 }
 .item-wrap:hover {
-    box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+    box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
 }
 .item-description {
     padding: 0 15px;
@@ -240,7 +254,7 @@
     display: none;
 }
 .item-info-title {
-    font-size: 18px;
+    font-size: 16px;
     color: #263238;
 }
 .item-info-subtitle {
@@ -251,6 +265,11 @@
 .item-info-price {
     font-weight: 700;
     font-size: 20px;
+    color: #263238;
+}
+.item-author-section img {
+    width: 30px;
+    height: 30px;
 }
 .item-author {
     padding: 15px 0 20px;
@@ -264,16 +283,18 @@
 .item-author-star {
     font-size: 12px;
     color: #ffa726;
+    margin-left: auto;
+}
+.item-author-star li + li {
+    margin-left: 3px;
 }
 .item-author-number {
     color: #263238;
     font-size: 12px;
+    margin-left: 8px;
 }
 .item-author-icon-full {
     display: none;
-}
-.item-bracket-grey {
-    color: #b0bec5;
 }
 /* ===== Card-Item End ===== */
 /* Два раза ===== Card-Item =====  */
@@ -327,52 +348,53 @@
     /*color: #b0bec5;*/
 /*}*/
 /*!* ===== Card-Item End ===== *!*/
-/* ===== Card-Item :Active ===== */
-.row-active:active {
-    flex-direction: column;
-}
-.item:active {
-    width: 100%;
-}
-.item-wrap:active {
-    display: flex;
-    box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
-}
-.item:active + .item {
-    margin-top: 30px;
-}
-.item:active .item-description {
-    margin-left: 30px;
-}
-.item:active .item-info-fullblock {
-    display: block;
-    padding: 20px 0;
-}
-.item:active .item-info-fullblock-text {
-    color: #70838d;
-    font-size: 14px;
-}
-.item:active .item-info-fullblock-sales {
-    color: #aeb4bb;
-    font-size: 13px;
-    margin-left: 130px;
-}
-.item:active .item-author-icon-full {
-    display: flex;
-}
-.item:active .item-author-icon-full li + li {
-    margin-left: 15px;
-}
-.item:active .item-author-icon-full i {
-    color: #8bc34a;
-}
-.item:active .item-author-icon-full li {
-    color: #263238;
-}
-.item:active .item-author {
-    margin-right: auto;
-}
-/* ===== Card-Item :Active end ===== */
+/*ВРЕМЕНННО АКТИВ*/
+/*!* ===== Card-Item :Active ===== *!*/
+/*.row-active:active {*/
+    /*flex-direction: column;*/
+/*}*/
+/*.item:active {*/
+    /*width: 100%;*/
+/*}*/
+/*.item-wrap:active {*/
+    /*display: flex;*/
+    /*box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);*/
+/*}*/
+/*.item:active + .item {*/
+    /*margin-top: 30px;*/
+/*}*/
+/*.item:active .item-description {*/
+    /*margin-left: 30px;*/
+/*}*/
+/*.item:active .item-info-fullblock {*/
+    /*display: block;*/
+    /*padding: 20px 0;*/
+/*}*/
+/*.item:active .item-info-fullblock-text {*/
+    /*color: #70838d;*/
+    /*font-size: 14px;*/
+/*}*/
+/*.item:active .item-info-fullblock-sales {*/
+    /*color: #aeb4bb;*/
+    /*font-size: 13px;*/
+    /*margin-left: 130px;*/
+/*}*/
+/*.item:active .item-author-icon-full {*/
+    /*display: flex;*/
+/*}*/
+/*.item:active .item-author-icon-full li + li {*/
+    /*margin-left: 15px;*/
+/*}*/
+/*.item:active .item-author-icon-full i {*/
+    /*color: #8bc34a;*/
+/*}*/
+/*.item:active .item-author-icon-full li {*/
+    /*color: #263238;*/
+/*}*/
+/*.item:active .item-author {*/
+    /*margin-right: auto;*/
+/*}*/
+/*!* ===== Card-Item :Active end ===== *!*/
 
 /* ===== Carousel ===== */
 .card-items-slider.multiple-items .slick-dots{
