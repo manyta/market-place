@@ -85,13 +85,8 @@
 .sort-controls-container {
     padding: 20px;
 }
-.sort-by .sort-icon {
-    margin-right: 10px;
-}
-.caret-icon {
-    position: absolute;
-    top: 13px;
-    left: 200px;
+.sort-by span {
+    padding: 0 10px;
 }
 .change-icon {
     cursor: pointer;
