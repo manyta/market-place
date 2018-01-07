@@ -1,4 +1,4 @@
-/* ===== 04_all new items start ===== */
+/* ===== all new items start ===== */
 /* ===== subheader start ===== */
 .subheader {
     margin-top: 150px;
@@ -42,12 +42,4 @@
     margin-top: 40px;
 }
 /* ===== Aside Section end =====*/
-.item-description .item-author .item-author-number::before,
-.item-description .item-author .item-author-number::after {
-    color: #b0bec5;
-    content: '(';
-}
-.item-description .item-author .item-author-number::after {
-    content: ')';
-}
-/* ===== 04_all new items end ===== */
+/* ===== all new items end ===== */
