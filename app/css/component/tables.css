@@ -66,3 +66,7 @@
 .withdrawl-table tr>td:nth-child(4) {
 	color: #8bc34a;
 }
+
+.table-sales tr > td:nth-child(3) {
+	font-weight: 700;
+}

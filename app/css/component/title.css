@@ -4,6 +4,12 @@
 	font-weight: 700;
 }
 
+.table-title > span{
+	font-size: 24px;
+	color: #263238;
+	font-weight: 500;
+}
+
 .welcome-title {
 	font-size: 48px;
 	font-weight: 700;
