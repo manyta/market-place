@@ -402,9 +402,9 @@ line-height: 60px;
 /* ===== Default Section end ===== */
 
 /* ===== Dropdown ===== */
-.dropdown-container{
-    position: relative;
-}
+/*.dropdown-container{*/
+    /*position: relative;*/
+/*}*/
 .dropdown-container .dropdown-menu{
     position: absolute;
     display: none;
