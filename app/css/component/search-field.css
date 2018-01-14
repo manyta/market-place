@@ -1,0 +1,130 @@
+body {
+	color: #263238;
+}
+
+.standart-section {
+	padding: 40px 0 140px 0;
+}
+
+.bg-blue {
+	background-color: #f4f6f5;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+/*search-field start*/
+.search {
+	background: url(../../img/search-bg.png) no-repeat center / cover ;
+	padding-top: 60px;
+	padding-bottom: 65px;
+}
+
+.search .subtitle {
+	margin-bottom: 20px;
+}
+
+.input-wrapper {
+	position: relative;
+}
+
+.search .inner-form input {
+	box-shadow: 0px 1px 10px 0px rgba(64, 64, 64, 0.75); 
+}
+
+.search .inner-form i {
+	font-size: 20px;
+	color: #78909c;
+	position: absolute;
+	top: 18px;
+	right: 20px;
+}
+/*search-field end*/
+
+/* table-title start */
+.table-section {
+	padding-bottom: 140px;
+}
+
+.table-section .bread-crumbs {
+	padding-bottom: 40px;
+	font-size: 15px;
+}
+
+.table-section .bread-crumbs a.active {
+	color: #263238;
+}
+
+.table-section .bread-crumbs a + a {
+	margin-left: 10px;
+}
+
+.table-section .table-title {
+	padding: 17px 20px 17px 30px;
+	border: 1px solid #d7d7d7;
+}
+
+.table-title .right-side > * + * {
+	margin-left: 5px;
+}
+
+.table-section .table-title span {
+	display: inline-block;
+}
+
+.table-section .table-title form {
+	display: inline-block;
+}
+
+.table-section .table-title .date-container {
+	background-color: #f9f9f9;
+	padding: 8px 10px 8px 15px;
+	border: 1px solid #dcdcdc;
+	font-size: 12px;
+	width: 135px;
+}
+
+.table-section .table-title  .date-container + i {
+	color: #8cc148;
+	position: absolute;
+	font-size: 12px;
+	top: 7px;
+	right: 12px;
+	z-index: 99;
+}
+
+.table-section .table-title .btn {
+	padding: 8px 20px;
+	font-size: 12px;
+}
+
+.table-section .table-title span.to {
+	font-size: 12px;
+}
+/* table-title end */
+
+/* table-body start */
+.table-body {
+	padding: 35px 35px 80px 40px;
+	border: 1px solid #d7d7d7;
+	border-top: none;
+}
+
+.table-body table {
+	margin-bottom: 90px;
+}
+
+.table-footer {
+	font-size: 30px;
+}
+
+.table-footer .price {
+	color: #8bc34a;
+}
+
+.w-history {
+	padding: 35px;
+}
+
+/* table-body end */

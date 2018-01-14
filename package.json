@@ -1,7 +1,6 @@
 {
   "name": "web-store",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,14 @@
     "gulp-tinypng": "^1.0.2",
     "gulp.spritesmith": "^6.7.0",
     "merge-stream": "^1.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manyta/market-place.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manyta/market-place/issues"
+  },
+  "homepage": "https://github.com/manyta/market-place#readme",
+  "description": ""
 }

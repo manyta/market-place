@@ -109,10 +109,12 @@ body {
 	padding: 35px 35px 80px 40px;
 	border: 1px solid #d7d7d7;
 	border-top: none;
+
 }
 
 .table-body table {
 	margin-bottom: 90px;
+	width: 572px;
 }
 
 .table-footer {
@@ -128,3 +130,35 @@ body {
 }
 
 /* table-body end */
+
+/* withdrawl earnings start */
+.earnings-body {
+	padding: 30px 38px 48px 36px;
+	border: 1px solid #dedede;
+	border-top: none;
+	width: 565px;
+}
+
+.earnings-body label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 25px;
+	color: #263238;
+}
+
+.earnings-body label span {
+	color: #8bc34a;
+} 
+
+.earnings-body input,
+.earnings-body select {
+	padding: 15px 18px;
+	border: 1px solid #ddd;
+	background-color: #f9f9f9;
+	color: #707070;
+	font-family: 'Myriad Pro', sans-serif;
+	font-size: 15px;
+	width: 100%;
+	margin-bottom: 25px;
+}
+/* withdrawl earnings end */

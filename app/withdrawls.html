@@ -29,6 +29,8 @@
     <link rel="stylesheet" href="css/component/search-field.css">
     <link rel="stylesheet" href="css/component/tables.css">
     <link rel="stylesheet" href="css/component/footer.css">
+    <link rel="stylesheet" href="css/component/search-field.css">
+    <link rel="stylesheet" href="css/component/sales-statement.css">
 </head>
 <body>
 	<!-- HEADER -->
@@ -123,12 +125,23 @@
 			<div class="w-earnings mr-auto">
 			<div class="table-title bg-white d-flex align-items-center">
 				<span>Withdrawal Earnings</span>
-			</div>
-			<div class="earnings-body bg-white d-flex">
-				<label for="">Amount to Withdraw ($2000.00 Maximum) <span>*</span></label>
-				<input type="text" >
-			</div>
-			</div>
+            </div>
+			<div class="earnings-body bg-white">
+				<label for="ammount-to-withdraw" >Amount to Withdraw ($2000.00 Maximum) <span>*</span></label>
+				<input type="text" id="ammount-to-withdraw" placeholder="Enter the amount you want to withdraw...">
+
+                <label for="choose-your-method" >Choose your Withdraw Method <span>*</span></label>
+                <input type="text" id="choose-your-method" placeholder="Select Your Card">
+
+                <label for="your-account-name" >Your Account Name<span>*</span></label>
+                <input type="text" id="your-account-name" placeholder="Select Your Card">
+
+
+                <label for="confirm-password" >Confirm Your Password <span>*</span></label>
+                <input type="text" id="confirm-password" placeholder="Select Your Card">
+
+		    </div>
+            </div>
 		<div class="withdrawl-history">
 			<div class="table-title bg-white d-flex align-items-center">
 				<span>Withdrawal History</span>
