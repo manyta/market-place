@@ -14,43 +14,45 @@
 }
 /* ===== Dropdawn user-data End ===== */
 /* ===== Dropdawn Card notification Start ===== */
-.notification .dropdown-container .dropdown-menu {
-    width: 270px;
+.icon-dropdawn-wrap .dropdown-menu {
+    /*width: 270px;*/
+    top: 61%;
+    right: 25%;
 }
-.dropdown-container .dropdown-cart {
+.icon-dropdawn-wrap .dropdown-cart {
     padding: 20px;
     border-bottom: 1px solid #e0e0e0;
 }
-.dropdown-container .dropdown-cart-item {
+.icon-dropdawn-wrap .dropdown-cart-item {
     padding-left: 15px;
 }
-.dropdown-container .dropdown-cart-item span + span {
+.icon-dropdawn-wrap .dropdown-cart-item span + span {
     margin-top: 10px;
 }
-.dropdown-container .total-dropdawn-cart-text {
+.icon-dropdawn-wrap .total-dropdawn-cart-text {
     padding: 0 30px;
     color: #263238;
     font-size: 16px;
     font-weight: bold;
 }
-.dropdown-container .dropdown-cart-price {
+.icon-dropdawn-wrap .dropdown-cart-price {
     color: #000;
     font-size: 16px;
 }
-.dropdown-container .dropdown-cart-title {
+.icon-dropdawn-wrap .dropdown-cart-title {
     color: #263238;
 }
-.dropdown-container .dropdown-cart-item-green {
+.icon-dropdawn-wrap .dropdown-cart-item-green {
     color: #84b743;
     font-size: 12px;
 }
-.dropdown-container .total-dropdawn-cart-btn {
+.icon-dropdawn-wrap .total-dropdawn-cart-btn {
     padding: 10px 12px;
 }
-.dropdown-container .total-dropdawn-cart-btn .btn + .btn {
+.icon-dropdawn-wrap .total-dropdawn-cart-btn .btn + .btn {
     margin-left: 5px;
 }
-.dropdown-container .total-dropdawn-cart {
+.icon-dropdawn-wrap .total-dropdawn-cart {
     padding: 10px 15px;
 }
 /* ===== Dropdawn notification End ===== */
