@@ -1,6 +1,5 @@
 /* ===== Header ===== */
 .header{
-    position: absolute;
     left: 0;
     top: 0;
     right: 0;
@@ -74,6 +73,10 @@
 .bottom-header-nav{
     color: #fff;
     font-size: 14px;
+}
+.bottom-header-nav a:hover,
+.bottom-header-nav a:active{
+    color: #8bc34a;
 }
 .bottom-header-nav a + a{
     margin-left: 33px;
@@ -150,8 +153,9 @@
 }
 .btn.btn-bold{
     padding: 22px 37px;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
+    line-height: 1;
 }
 .btn.btn-error{
     background-color: transparent;
@@ -160,7 +164,7 @@
 }
 .btn.btn-submit{
     padding: 19px 43px;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -175,6 +179,9 @@
 }
 .btn.btn-lightgreen{
     background-color: #8bc34a;
+}
+.btn.btn-lightgreen:hover{
+    background-color: #9edb54;
 }
 .btn.btn-blue{
     background-color: #42a5f5;
@@ -207,6 +214,11 @@
     -webkit-box-shadow: 0px 1px 3px rgba(204, 216, 228, 0.75);
     box-shadow: 0px 1px 3px rgba(204, 216, 228, 0.75);
 }
+.btn.btn-main-items:hover,
+.btn.btn-big:hover{
+    -webkit-box-shadow: 0px 1px 17px rgba(204, 216, 228, 0.75);
+    box-shadow: 0px 1px 17px rgba(204, 216, 228, 0.75);
+}
 .btn.btn-big{
     padding: 25px 43px;
     font-size: 18px;
@@ -236,7 +248,6 @@
     -webkit-box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
     box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
 }
-.card:hover .card-img,
 .card:hover .card-description-wrapper{
     -webkit-box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
     box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
@@ -360,11 +371,14 @@
 .card-items-slider.multiple-items .slick-dots{
     margin-top: 70px;
 }
+.card-items-slider.multiple-items .slick-list{
+    overflow: visible;
+}
 .slick-dots li button::before{
-color: #e8e8e8;
-opacity: 1;
-font-size: 24px;
-line-height: 60px;
+    color: #e8e8e8;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 60px;
 }
 .slick-dots li.slick-active button:before{
     color: #8bc34a;
@@ -408,6 +422,9 @@ line-height: 60px;
 
 /* ===== Form ===== */
 /* ----- inner form start----- */
+.inner-form{
+    position: relative;
+}
 .inner-form .sub-inner{
     width: 670px;
     height: 56px;
@@ -416,7 +433,7 @@ line-height: 60px;
     -webkit-box-shadow: 0px 1px 10px rgba(124, 178, 64, 0.75);
     box-shadow: 0px 1px 10px rgba(124, 178, 64, 0.75);
     background-color: #fff;
-    padding: 0 25px;
+    padding: 0 45px 0 25px;
     font: 500 14px/1 'Roboto', sans-serif;
     letter-spacing: .1em;
 }
@@ -430,6 +447,13 @@ line-height: 60px;
     color: #90a4ae;
 }
 .inner-form input[type="text"]::placeholder{
+    color: #90a4ae;
+}
+.inner-form .fa{
+    position: absolute;
+    bottom: 17px;
+    right: 20px;
+    font-size: 20px;
     color: #90a4ae;
 }
 /* ----- inner form end----- */
@@ -630,7 +654,7 @@ input[type="file"] + label{
   
 /* ===== Text weight ===== */
 .text-reg {
-    font-weight: 400;
+    font-weight: 400 !important;
 }
 .text-med {
     font-weight: 500;
@@ -747,6 +771,7 @@ input[type="file"] + label{
     padding-right: 43px;
     width: 260px;
     padding: 15px;
+    outline: none;
 }
 .subscribe-form-newsletter{
     position: relative;
@@ -762,6 +787,10 @@ input[type="file"] + label{
     color: #fff;
     border: none;
     font-size: 20px;
+    outline: none;
+}
+.footer .subscribe-form .subscribe-form-newsletter:hover button{
+    background-color: #82ac4e;
 }
 .copyright{
     padding: 27px 0 35px 0;

@@ -1,13 +1,10 @@
 /* ===== Inner ===== */
 .inner{
-    height: 100vh;
 	background: url("../img/inner-bg.jpg") no-repeat center / cover;
 	text-align: center;
-    position: relative;
     filter: grayscale(100%);
 }
 .inner-content h1{
-    margin-top: 151px;
     margin-bottom: 35px;
 }
 .inner-form{
@@ -27,6 +24,27 @@
 }
 .new-release-btn a + a{
     margin-left: 12px;
+}
+.card-img{
+    position: relative;
+}
+.card-img a{
+    outline: none;
+}
+.card-img .card-label{
+    position: absolute;
+    border: 30px solid #8bc34a;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 0;
+    height: 0; 
+}
+.card-img .card-label .fa{
+    position: absolute;
+    font-size: 18px;
+    color: #fff;
+    right: 10px;
+    bottom: 1px;
 }
 /* ===== New release end ===== */
 
@@ -55,3 +73,39 @@
     line-height: 24px;
 }
 /* ===== Why Choose end ===== */
+
+/* ===== Banner ===== */
+.banner .banner-lg{
+    height: 440px;
+    width: 1100px;
+    position: relative;
+    box-shadow: 0 0 45px rgba(181, 181, 181, 1);
+}
+.banner .banner-lg .banner-sm{
+    position: absolute;
+    padding: 70px 55px 80px;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.banner .banner-lg .banner-sm .title{
+    font-size: 30px;
+    line-height: 36px;
+}
+.banner .banner-lg .banner-sm .become-author-btn{
+    margin-left: 30px;
+}
+/* ===== Banner end===== */
+
+/* ===== Free tutorials ===== */
+.free-tutorials .row {
+    margin-top: 65px;
+}
+.tutorials-card .tutorials-card-title{
+    font-size: 24px;
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+/* ===== Free tutorials end ===== */
