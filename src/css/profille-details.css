@@ -17,3 +17,18 @@
     padding-bottom: 45px;
 }
 /* ===== Breadcrumbs end ===== */
+.profile-details-wrap .aside-wrap{
+    width: 100%;
+}
+.profile-details-wrap .aside-section .aside-item{
+    padding: 25px 0 45px 0;
+}
+.profile-details-wrap .aside-section .aside-item .about-author-img{
+    margin-right: 16px;
+}
+.profile-details-wrap .social-nav{
+    margin: 25px 0;
+}
+.profile-details-wrap .social-nav a + a{
+    margin-left: 7px;
+}
