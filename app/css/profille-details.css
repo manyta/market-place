@@ -1,0 +1,21 @@
+/* ===== Inner ===== */
+.inner-sm{
+	background: url("../img/inner-sm.jpg") no-repeat center / cover;
+	text-align: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.inner-form{
+    margin-top: 20px;
+}
+.inner-form .sub-inner{
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.75);
+    box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.75);
+}
+/* ===== Inner end ===== */
+
+/* ===== Breadcrumbs ===== */
+.breadcrumbs-wrap{
+    padding-bottom: 45px;
+}
+/* ===== Breadcrumbs end ===== */

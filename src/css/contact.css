@@ -17,6 +17,8 @@
     padding-bottom: 45px;
 }
 /* ===== Breadcrumbs end ===== */
+
+/* ===== Contact-us ===== */
 .contact-us{
     padding: 45px 0 139px;
 }
@@ -58,6 +60,9 @@
 .contact-us-content .contact-us-address + .contact-us-address{
     margin-top: 30px;
 }
+/* ===== Contact-us end ===== */
+
+/* ===== Drop us message ===== */
 .drop-us-message-title span{
     font-size: 24px;
     font-weight: 500;
@@ -83,3 +88,4 @@
 .drop-us-message .message{
     margin: 28px 0 22px 0;
 }
+/* ===== Drop us message end ===== */
