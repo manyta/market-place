@@ -1,0 +1,16 @@
+/* default-components */
+.simple-block{
+    background-color: #fff;
+    color: #696969;
+    border: 1px solid #dedede;
+}
+.information-block{
+    padding: 40px;
+}
+/* title */
+.title-block{
+    color: #263238;
+    font-size: 24px;
+    padding: 21px 34px 24px;
+    border-bottom: 1px solid #d7d7d7;
+}

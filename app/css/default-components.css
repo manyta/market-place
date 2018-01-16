@@ -191,8 +191,8 @@
     color: #707070;
 }
 .btn-shadow{
-    -webkit-box-shadow: 0px 1px 2px rgba(69, 90, 100, 0.75);
-    box-shadow: 0px 1px 2px rgba(69, 90, 100, 0.75);  
+    -webkit-box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
+    box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);  
 }
 .btn-radius{
     border-radius: 4px;     
@@ -203,8 +203,8 @@
 .btn.btn-main-items{
     padding: 19px 32px;
     font-weight: 400;
-    -webkit-box-shadow: 0px 1px 3px rgba(204, 216, 228, 0.75);
-    box-shadow: 0px 1px 3px rgba(204, 216, 228, 0.75);
+    -webkit-box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
+    box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
 }
 .btn.btn-big{
     padding: 25px 43px;
@@ -446,19 +446,23 @@
 /* ===== Card-Item :Active end ===== */
 
 /* ===== Carousel ===== */
+
 .card-items-slider.multiple-items .slick-dots{
     top: 70px;
 }
+.multiple-items .slick-dots li + li {
+    margin-left: 7px;
+    }
 .slick-dots li button::before{
 color: #e8e8e8;
 opacity: 1;
 font-size: 24px;
-line-height: 60px;
 }
 .slick-dots li.slick-active button:before{
     color: #8bc34a;
     opacity: 1;
 }
+
 /* ===== Carousel end ===== */
 
 /* ===== Default Section ===== */
@@ -502,8 +506,8 @@ line-height: 60px;
     height: 56px;
     border: 1px solid transparent;
     border-radius: 4px;
-    -webkit-box-shadow: 0px 1px 10px rgba(124, 178, 64, 0.75);
-    box-shadow: 0px 1px 10px rgba(124, 178, 64, 0.75);
+    -webkit-box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
+    box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
     background-color: #fff;
     padding: 0 25px;
     font: 500 14px/1 'Roboto', sans-serif;
@@ -545,7 +549,7 @@ textarea.form-message{
 
 /* ----- form default start----- */
 .form-default{
-    border: 1px solid #dedede;
+    border: 1px solid #dededec2;
     height: 40px;
     padding: 14px 18px;
     color: #707070;
@@ -678,14 +682,14 @@ input[type="file"] + label{
 }
 .tags li>a:hover{
     background-color: #e74c3c;
-    -webkit-box-shadow: 0px 2px 5px rgba(202, 215, 228, 0.75);
-    box-shadow: 0px 2px 5px rgba(202, 215, 228, 0.75);
+    -webkit-box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
+    box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
     color: #fff;
 }
 .tags li>a:active{
     background-color: #e74c3c;
-    -webkit-box-shadow: 0px 2px 5px rgba(202, 215, 228, 0.75);
-    box-shadow: 0px 2px 5px rgba(202, 215, 228, 0.75);
+    -webkit-box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
+    box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
     color: #fff;
 }
 /* ===== Tags end ===== */

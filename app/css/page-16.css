@@ -1,0 +1,50 @@
+/* ==== PAGE 16 ==== */
+
+.container-fluid{
+    padding: 0;
+}
+.sub-header{
+    margin-top: 152px;
+    height: 228px;
+    background-color: #dedede;
+}
+
+.breadcrumbs-wrap{
+    padding: 48px 0 43px;
+}
+/* === SETTING === */
+.settings .aside-nav a{
+    padding: 19px 22px;
+    color: #707070;
+    font-size: 14px;
+    border-bottom: 1px solid #d7d7d7;
+
+}
+.settings .aside-nav a.active{
+    color: #37474f;
+    border-bottom: 2px solid #8bc34a;
+}
+.settings .aside-nav a.active .fa{
+    color: #8bc34a;
+}
+.settings .simple-block i+span{
+    margin-left: 22px;
+}
+
+.form-control + .form-control{
+    margin-top: 21px;
+}
+.form-control .form-default{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 540px;;
+}
+.information-block .btn.btn-lightgreen{
+    padding: 15px 30px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 225px;
+}
+/* === SETTING === */
+/* ==== END PAGE 16 ==== */

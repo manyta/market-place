@@ -434,19 +434,23 @@
 /* ===== Card-Item :Active end ===== */
 
 /* ===== Carousel ===== */
+
 .card-items-slider.multiple-items .slick-dots{
     top: 70px;
 }
+.multiple-items .slick-dots li + li {
+    margin-left: 7px;
+    }
 .slick-dots li button::before{
 color: #e8e8e8;
 opacity: 1;
 font-size: 24px;
-line-height: 60px;
 }
 .slick-dots li.slick-active button:before{
     color: #8bc34a;
     opacity: 1;
 }
+
 /* ===== Carousel end ===== */
 
 /* ===== Default Section ===== */
@@ -521,7 +525,7 @@ textarea.form-message{
 
 /* ----- form default start----- */
 .form-default{
-    border: 1px solid #dedede;
+    border: 1px solid #dededec2;
     height: 40px;
     padding: 14px 18px;
     color: #707070;
