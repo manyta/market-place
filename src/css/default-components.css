@@ -84,21 +84,33 @@
 /* ===== Header end ===== */
 
 /* ===== Aside Section ===== */
-.aside-wrap {
-    width: 270px;
-    border: 1px solid rgb(220, 220, 220);
-}
 .aside-section {
+    border: 1px solid rgb(220, 220, 220);
     padding: 25px 30px;
     color: #263238;
 }
-.aside-section .aside-item {
-    border-top: 1px solid #dde3e8;
+.aside-section + .aside-section {
+    margin-top: 30px;
 }
 .aside-section .aside-title {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dde3e8;
+}
+.aside-item li {
+    margin-top: 30px;
+}
+.aside .item-description {
+    padding: 0px;
+}
+.aside .item-img-vertical {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 27px;
+}
+.aside .item-author-vertical {
+    padding: 15px 0 20px;
 }
 /* ===== Aside Section End ===== */
 
@@ -129,14 +141,19 @@
 /* ===== Breadcrumbs ===== */
 .breadcrumbs {
     color: #b0bec5;
+    padding: 45px 0;
+    position: relative;
+}
+.breadcrumbs::before {
+    content: '-';
+    color: #8bc34a;
+    left: 47px;
+    position: absolute;
 }
 .breadcrumbs li + li {
-    margin-left: 8px;
+    margin-left: 20px;
 }
-.breadcrumbs .breadcrumbs-line {
-    color: #8bc34a;
-}
-.breadcrumbs li:active {
+.breadcrumbs .breadcrumbs-active{
     color: #263238;
 }
 /* ===== Breadcrumbs end ===== */
@@ -229,6 +246,10 @@
     padding: 9px 11px;
     font-weight: 400;
 }
+.border{
+    border: 1px solid rgb(220, 220, 220);
+    background-color: #fff;
+}
 /* ===== Btn end ===== */
 
 /* ===== Card-Item ===== */
@@ -300,7 +321,6 @@
 .card .card-author-info .product-download::after{
     content: ')';
 }
-
 .card.large-card .card-description{
     padding: 25px 30px 15px;
 }
@@ -392,6 +412,9 @@
 }
 .sub-header {
     padding: 60px 0 65px;
+}
+.default-section-breadcrumbs {
+    padding-bottom: 115px;
 }
 .default-section {
     padding: 120px 0;
@@ -634,6 +657,9 @@ input[type="file"] + label{
 }
 .txt-black {            /* footer*/
     color: #000;
+}
+.txt-lightgrey{
+    color: #707070;
 }
 /* ===== Text color end ===== */
   

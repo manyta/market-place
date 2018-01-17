@@ -114,18 +114,16 @@
                 <i class="fa fa-search" aria-hidden="true"></i>
             </form>
         </section>
-        <section class="profile-details bg-light-gray default-section">
+        <section class="profile-details bg-light-gray default-section-breadcrumbs">
             <div class="container">
                 <div class="breadcrumbs-wrap">
                     <ul class="breadcrumbs d-flex">
                         <li>
                             <a href="">Home</a>
                         </li>
-                        <li class="breadcrumbs-line">-</li>
-                        <li>
-                            <a href="">Product Page</a>
-                        </li>
+                        <li class="breadcrumbs-active">Product Page</li>
                     </ul>
+                    <!-- / breadcrumbs -->
                 </div>
                 <!-- / breadcrumbs-wrap -->
             </div>
@@ -134,45 +132,31 @@
                 <div class="profile-details-wrap">
                     <div class="row d-flex">
                         <div class="col-md-3">
-                            <div class="aside-wrap">
-                                <div class="aside-section">
-                                    <div class="aside-title">
-                                        <span>About Author</span>
-                                    </div>
-                                    <div class="aside-item d-flex">
-                                        <div class="about-author-img">
-                                            <img src="img/about-author-img.jpg" alt="">
-                                        </div>
-                                        <div class="about-author-boss d-flex flex-column justify-content-between">
-                                            <span>PsdBoss</span>
-                                            <span class="status">
-                                                <i class="fa fa-circle" aria-hidden="true"></i>Online</span>
-                                        </div>
-                                        <!-- / about-author-boss -->
-                                    </div>
-                                    <!-- / about-author -->
-                                    <ul class="author-batch d-flex justify-content-around">
-                                        <li>
-                                            <span class="icon-smile"></span>
-                                        </li>
-                                        <li>
-                                            <span class="icon-sheet"></span>
-                                        </li>
-                                        <li>
-                                            <span class="icon-flash"></span>
-                                        </li>
-                                        <li>
-                                            <span class="icon-letter-f"></span>
-                                        </li>
-                                        <li>
-                                            <span class="icon-foursquare"></span>
-                                        </li>
-                                    </ul>
-                                    <!-- / author-batch -->
+                            <div class="aside-section">
+                                <div class="aside-title">
+                                    <span>About Author</span>
                                 </div>
-                                <!-- / aside-section -->
+                                <div class="aside-item d-flex">
+                                    <div class="about-author-img">
+                                        <img src="img/about-author-img.jpg" alt="">
+                                    </div>
+                                    <div class="about-author-boss d-flex flex-column justify-content-between">
+                                        <span class="txt-dark">PsdBoss</span>
+                                        <a href="" class="btn btn-xs btn-white-border"><i class="fa fa-circle" aria-hidden="true"></i>Online</a>
+                                    </div>
+                                    <!-- / about-author-boss -->
+                                </div>
+                                <!-- / about-author -->
+                                <ul class="author-batch d-flex justify-content-around">
+                                    <li class="icon-smile"></li>
+                                    <li class="icon-sheet"></li>
+                                    <li class="icon-flesh"></li>
+                                    <li class="icon-letter-f"></li>
+                                    <li class="icon-euro"></li>
+                                </ul>
+                                <!-- / author-batch -->
                             </div>
-                            <!-- / aside-wrap -->
+                            <!-- / aside-section -->
                             <nav class="social-nav d-flex">
                                 <a href="" class="icon icon-fb"></a>
                                 <a href="" class="icon icon-twitter"></a>
@@ -185,7 +169,7 @@
                                 <a href="" class="btn btn-lightgreen btn-shadow">Following</a>
                             </div>
                             <!-- / btn-favourite -->
-                            <nav class="aside-navigation d-flex flex-wrap flex-column bg-white text-med">
+                            <nav class="aside-navigation d-flex flex-wrap flex-column bg-white text-med border">
                                 <a href="" class="active">
                                     <i class="fa fa-user" aria-hidden="true"></i>About Me</a>
                                 <a href="">
@@ -201,41 +185,83 @@
                         </div>
                         <!-- / col-md-3 -->
                         <div class="col-md-9">
-                            <div class="product-img">
+                            <div class="product-img border">
                                 <img src="img/product-img-banner.jpg" alt="">
                             </div>
                             <!-- / product-img -->
                             <div class="info-bar">
-                                <ul class="d-flex">
+                                <ul class="d-flex border">
                                     <li>Country:
-                                        <span class="grafit-gray"> England</span>
+                                        <span class="info d-flex justify-content-center txt-lightgrey text-reg">England</span>
                                     </li>
                                     <li>Member Since:
-                                        <span class="grafit-gray">December 26, 2014</span>
+                                        <span class="info d-flex justify-content-center txt-lightgrey text-reg">December 26, 2014</span>
                                     </li>
                                     <li>Author Rating:
-                                        <span class="product-rating d-flex">
-                                            <span class="gold">
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                                <i class="fa fa-star" aria-hidden="true"></i>
-                                            </span>
-                                            <span class="product-download">05</span>
+                                        <span class="info product-rating d-flex justify-content-center">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <span class="product-download text-reg">05</span>
                                         </span>
                                     </li>
                                     <li>Total Sales:
-                                        <span>$ 5,030 </span>
+                                        <span class="info d-flex justify-content-center text-reg">$ 5,030</span>
                                     </li>
                                 </ul>
                             </div>
                             <!-- / info-bar -->
+                            <div class="about-me border">
+                                <div class="about-me-title text-bold txt-dark">
+                                    <span>About Me</span>
+                                </div>
+                                <p class="txt-lightgrey">Bimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                                    and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                    but also the leap into electronic.</p>
+                                <div class="about-me-skills">
+                                    <div class="about-me-title text-bold txt-dark">
+                                        <span>Skills</span>
+                                    </div>
+                                    <div class="progress-wrap">
+                                        <label class="text-med txt-dark text-size-common d-flex justify-content-between">
+                                            <span><i>Graphic Design</i></span>
+                                            <span>80%</span>
+                                        </label>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ progress-wrap -->
+                                    <div class="progress-wrap">
+                                        <label class="text-med txt-dark text-size-common d-flex justify-content-between">
+                                            <span><i>WordPress</i></span>
+                                            <span>90%</span>
+                                        </label>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ progress-wrap -->
+                                    <div class="progress-wrap">
+                                        <label class="text-med txt-dark text-size-common d-flex justify-content-between">
+                                            <span><i>Joolma</i></span>
+                                            <span>70%</span>
+                                        </label>
+                                        <div class="progress">
+                                            <div class="progress-bar"></div>
+                                        </div>
+                                    </div>
+                                    <!--/ progress-wrap -->
+                                </div>
+                            </div>
+                            <!-- / col-md-9 -->
                         </div>
+                        <!-- / row -->
                     </div>
-                    <!-- / row -->
                 </div>
-            </div>
         </section>
 
 
