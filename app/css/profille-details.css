@@ -34,3 +34,58 @@
 .profile-details-wrap .social-nav a + a{
     margin-left: 7px;
 }
+.profile-details-wrap .btn-favourite{
+    width: 100%;
+    text-align: center;
+}
+.profile-details-wrap .btn-favourite .fa{
+    font-size: 16px;
+    margin-right: 12px;
+}
+.profile-details-wrap .btn + .btn{
+    margin-top: 17px;
+}
+.profile-details-wrap .aside-navigation{
+    width: 100%;
+    border: 1px solid rgb(220, 220, 220);
+    margin-top: 30px;
+}
+.profile-details-wrap .aside-navigation a{
+    padding: 17px 20px;
+    border-top: 1px solid rgb(220, 220, 220);
+    color: #707070;
+    font-size: 14px;
+}
+.profile-details-wrap .aside-navigation .active{
+    color: #263238;
+    border-bottom: 2px solid #8bc34a;
+}
+.profile-details-wrap .aside-navigation .active .fa{
+    color: #8bc34a;
+}
+.profile-details-wrap .aside-navigation a .fa{
+    color: #d0d0d0;
+    font-weight: 400;
+    margin-right: 13px;
+}
+.profile-details-wrap .aside-navigation a:first-child{
+    border-top: 0;
+}
+.profile-details-wrap .product-img{
+    padding: 18px 20px;
+    border: 1px solid rgb(220, 220, 220);
+}
+.profile-details-wrap .info-bar{
+    margin-top: 30px;
+}
+.profile-details-wrap .info-bar li{
+    width: 25%;
+    border: 1px solid rgb(220, 220, 220);
+    padding: 24px 0 17px 0;
+    text-align: center;
+}
+.profile-details-wrap .info-bar li:nth-child(1),
+.profile-details-wrap .info-bar li:nth-child(2),
+.profile-details-wrap .info-bar li:nth-child(3){
+    border-right: 0;
+}

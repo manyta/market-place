@@ -189,6 +189,9 @@
 .btn.btn-gray{
     background-color: #546e7a;
 }
+.btn.btn-gray:hover{
+    background-color: #69838f;
+}
 .btn.btn-white{
     background-color: #fff;
     color: #263238;
