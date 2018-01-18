@@ -7,3 +7,9 @@ $('.multiple-items').slick({
     arrows: false,
     dots: true
   });
+
+// init slick nav
+$('.bottom-header-nav').slicknav({
+  appendTo: '.header .top-header .container',
+  label: ''
+});

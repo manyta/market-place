@@ -111,4 +111,7 @@
     background-color: #f8f8f8;
     padding: 40px 0;
 }
+.tutorials-card .tutorials-card-title .text-bold:hover{
+    color: #8bc34a;
+}
 /* ===== Free tutorials end ===== */
