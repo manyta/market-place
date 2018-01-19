@@ -30,6 +30,10 @@
 .contact-us-content .contact-us-map{
     margin-bottom: 60px;
 }
+.contact-us-content .contact-us-map iframe{
+    width: 100%;
+    height: 415px;
+}
 .contact-us-address .contact-us-icon{
     font-size: 24px;
     margin-right: 20px;
