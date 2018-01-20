@@ -9,7 +9,7 @@
 .login-modal {
   position: absolute;
   width: 730px;
-  height: 485px;
+  min-height: 485px;
   top: 230px;
   left: 50%;
   transform: translateX(-50%);
@@ -117,4 +117,49 @@
 
 .login-modal__lost-password:hover {
   text-shadow: 0 0 5px rgba(0, 0, 0,.6);
+}
+
+/********** Media queries ********/
+
+@media (max-width: 750px) {
+  .login-modal {
+    width: 608px;
+  }
+  .btn.btn-submit.btn-submit-login {
+
+  }
+  .login-form .login-button-wrapper i {
+    left: 10px;
+  }
+  .btn-login-creat {
+    padding: 14px 16px 14px 30px;
+
+  }
+}
+
+@media (max-width: 630px) {
+  .login-modal-content {
+    width: 80%;
+  }
+  .login-button-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .login-modal {
+    width: 90vw;
+  }
+  .login-form input {
+    height: 35px;
+  }
+  .login-form .login-button-wrapper i {
+    left: 19px;
+  }
+  .login-button-wrapper {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .btn-login-creat {
+    padding: 14px 16px 14px 30px;
+    width: 100%;
+  }
 }
