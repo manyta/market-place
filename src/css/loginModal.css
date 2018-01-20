@@ -1,0 +1,120 @@
+/*temporary-class START убрать при заливке в продакшн*/
+.temporary-class {
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+}
+/* temporary-class END */
+
+.login-modal {
+  position: absolute;
+  width: 730px;
+  height: 485px;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  box-shadow: 0 0 100px rgba(0, 0, 0, .6);
+}
+
+.login-modal__close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: font-size 0.1s;
+}
+
+.login-modal__close:hover {
+  font-size: 19px;
+}
+
+.login-modal-content {
+  width: 54.8%;
+  margin: auto;
+}
+
+.login-modal__title {
+  text-transform: uppercase;
+  margin: 0 auto 40px;
+}
+
+.login-form {
+
+}
+
+.login-input-wrapper {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.login-form i {
+  position: absolute;
+  top: 13px;
+  left: 19px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.login-form input {
+  width: 100%;
+  border: none;
+  background-color: #76ae36;
+  height: 43px;
+  padding: 0 20px 0 40px;
+  line-height: 43px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.login-form input::placeholder {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.login-button-wrapper {
+  position: relative;
+  margin-left: 10px;
+}
+
+.btn.btn-submit.btn-submit-login {
+  font-weight: 700;
+  padding: 14px 44px;
+  font-family: 'Roboto';
+  transition: background-color 0.3s;
+}
+
+.btn.btn-submit.btn-submit-login:hover {
+  background-color: #c8c8c8;
+}
+
+.btn-login-creat {
+  background-color: #76ae36;
+  padding: 14px 48px 14px 65px;
+  font-family: 'Roboto';
+  transition: background-color 0.3s;
+}
+
+.btn-login-creat:hover {
+  background-color: #5c9133;
+}
+
+.login-form .login-button-wrapper i {
+  top: 17px;
+  left: 40px;
+}
+
+.login-modal__lost-password {
+  color: #fff;
+  font-size: 18px;
+  align-items: start;
+  margin-top: 25px;
+}
+
+.login-modal__lost-password:hover {
+  text-shadow: 0 0 5px rgba(0, 0, 0,.6);
+}

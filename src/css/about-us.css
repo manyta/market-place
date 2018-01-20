@@ -32,3 +32,17 @@
   color: #707070;
   line-height: 1.6;
 }
+
+/********* Media queries*************/
+
+@media (max-width: 600px) {
+  .about-us-content__title > * {
+    font-size: 21px;
+  }
+  .about-us-content__item-title span {
+    font-size: 18px;
+  }
+  .about-us-content__item {
+    margin: 25px 15px 25px 15px;
+  }
+}
