@@ -22,11 +22,12 @@
 }
 .profile-details-wrap .aside-section .aside-item .about-author-img{
     margin-right: 16px;
+    margin-bottom: -3px;
 }
-.profile-details-wrap .aside-section .aside-item .about-author-boss span{
+.profile-details-wrap .aside-section .aside-item .about-author-status span{
     font-size: 18px;
 }
-.profile-details-wrap .aside-section .aside-item .about-author-boss .fa{
+.profile-details-wrap .aside-section .aside-item .about-author-status .fa{
     color: #8bc34a;
     margin-right: 8px;
 }
@@ -76,20 +77,21 @@
 }
 .profile-details-wrap .product-img{
     padding: 18px 20px;
+    width: 100%;
 }
 .profile-details-wrap .info-bar{
-    margin-top: 30px;
+    margin: 30px 0;
 }
-.profile-details-wrap .info-bar li{
+.profile-details-wrap .info-bar .info-bar-status{
     width: 25%;
     border-right: 1px solid rgb(220, 220, 220);
     padding: 24px 0 17px 0;
     text-align: center;
-    font-size: 14;
+    font-size: 14px;
     font-weight: 500;
     color: #263238;
 }
-.profile-details-wrap .info-bar li:last-child{
+.profile-details-wrap .info-bar .info-bar-status:last-child{
     border-right: 0;
 }
 .profile-details-wrap .info-bar .info{

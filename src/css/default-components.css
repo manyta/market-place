@@ -246,6 +246,7 @@
     padding: 9px 17px;
     font-size: 12px;
     font-weight: 400;
+    line-height: 17px;
 }
 .btn.btn-main-items{
     padding: 19px 32px;
@@ -412,17 +413,17 @@
 /* ===== Card-Item End ===== */
 
 /* ===== Carousel ===== */
-.card-items-slider.multiple-items .slick-dots{
-    margin-top: 70px;
-}
 .card-items-slider.multiple-items .slick-list{
     overflow: visible;
+    padding-bottom: 68px;
+}
+.slick-initialized .slick-slide{
+    outline: none;
 }
 .slick-dots li button::before{
     color: #e8e8e8;
     opacity: 1;
     font-size: 18px;
-    line-height: 60px;
 }
 .slick-dots li.slick-active button:before{
     color: #8bc34a;
@@ -487,7 +488,7 @@
 }
 .inner-form .fa{
     position: absolute;
-    bottom: 17px;
+    line-height: 2.8;
     right: 20px;
     font-size: 20px;
     color: #90a4ae;
@@ -694,6 +695,9 @@ input[type="file"] + label{
 .text-bold {
     font-weight: 700;
 }
+.text-italic{
+    font-style: italic;
+}
 /* ===== Text weight end ===== */
   
 /* ===== Text size ===== */
@@ -803,6 +807,9 @@ input[type="file"] + label{
     width: 260px;
     padding: 15px;
     outline: none;
+}
+.footer .subscribe-form .subscribe-form-newsletter input[type="email"]::placeholder{
+    color: #697378;
 }
 .subscribe-form-newsletter{
     position: relative;

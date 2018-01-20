@@ -55,6 +55,10 @@
 .trending-products .card-items-slider .card{
     margin: 0 15px;
 }
+.trending-products .card-items-slider .card .card-description .title,
+.trending-products .card-items-slider .card .card-author-info .card-author{
+    outline: none;
+}
 /* ===== Trending Products end ===== */
 
 /* ===== Why Choose ===== */
