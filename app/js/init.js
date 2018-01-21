@@ -7,3 +7,7 @@ $('.multiple-items').slick({
     arrows: false,
     dots: true
   });
+
+  // init form stiler for select
+  $('select').styler();
+  

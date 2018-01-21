@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="css/default-components.css">
     <link rel="stylesheet" href="css/simple-block.css">
     <link rel="stylesheet" href="css/page-16.css">
+    <link rel="stylesheet" href="css/select.css">
 </head>
 <body>
 
@@ -101,116 +102,130 @@
         <!-- / bottom-header -->
     </header>
     <!-- HEADER END -->
-
-    <div class="container-fluid">
-        <div class="sub-header">
-            <h1>Sub Header (small)</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur est nesciunt perferendis quo reprehenderit.
-            </p>
-        </div>
-    </div>
-    <section class="settings bg-light-gray">
-        <!-- Breadcrumbs -->
-        <div class="container">
-            <div class="breadcrumbs-wrap">
-                <ul class="breadcrumbs d-flex">
-                    <li>
-                        <a href="">Home</a>
-                    </li>
-                    <li class="breadcrumbs-line">-</li>
-                    <li>
-                        <a href="">Settings</a>
-                    </li>
-                </ul>
+    <main id="main">
+        <div class="container-fluid">
+            <div class="sub-header">
+                <h1>Sub Header (small)</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur est nesciunt perferendis quo reprehenderit.
+                </p>
             </div>
-        </div>    
-        <!--END  Breadcrumbs -->
-        <div class="container">
-            <div class="row d-flex">
-                <div class="col-md-3">
-                    <div class="simple-block">
-                        <nav class="aside-nav d-flex flex-column">
-                            <a href="" class="active">
-                                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                <span>Personal Information</span>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                <span>Profile</span>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                <span>Badges</span>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                <span>E-mail Settings</span>
-                            </a>
-                            <a href="">
-                                <i class="fa fa-angle-right" aria-hidden="true"></i>
-                                <span>Social Network</span>
-                            </a>
-                        </nav>
-                    </div>
+        </div>
+        <section class="settings bg-light-gray">
+            <!-- Breadcrumbs -->
+            <div class="container">
+                <div class="breadcrumbs-wrap d-flex justify-content-between">
+                    <ul class="breadcrumbs d-flex">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li class="breadcrumbs-line">-</li>
+                        <li>
+                            <a href="">Settings</a>
+                        </li>
+                    </ul>
+                    <button class="mobile-aside-toggle">
+                        <i class="fa fa-bars"></i>
+                    </button>
                 </div>
-                <div class="col-md-9">
-                    <div class="simple-block d-flex flex-column">
-                        <div class="title-block">
-                            <span>Personal Information</span>
+            </div>    
+            <!--END  Breadcrumbs -->
+            <div class="container">
+                <div class="overlay"></div>
+                <!-- / overlay -->
+                <div class="row d-flex">
+                    <div class="col-md-3 col-sm-6 mobile-aside left">
+                        <div class="simple-block">
+                            <nav class="aside-nav d-flex flex-column">
+                                <a href="" class="active">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span>Personal Information</span>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span>Profile</span>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span>Badges</span>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span>E-mail Settings</span>
+                                </a>
+                                <a href="">
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <span>Social Network</span>
+                                </a>
+                            </nav>
                         </div>
-                        <div class="information-block">
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="first-name">First Name</label>
-                                <input type="text" name="first-name" class="form-default">
-                            </form>
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="last-name">Last Name</label>
-                                <input type="text" name="last Name" class="form-default">
-                            </form>
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="company-name">Company Name</label>
-                                <input type="text" name="company-name" class="form-default">
-                            </form>
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="country">Country</label>
-                                <input type="text" name="country" placeholder="Select Your Country" class="form-default">
-                            </form>
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="address-line-1">Address Line 1</label>
-                                <input type="text" name="address-line-1" class="form-default">
-                            </form>
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="address-line-2">Address Line 2</label>
-                                <input type="text" name="address-line-2" class="form-default">
-                            </form>
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="city">City</label>
-                                <input type="text" name="city" class="form-default">
-                            </form>
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="state-province-region">State / Province / Region</label>
-                                <input type="text" name="state-province-region" class="form-default">
-                            </form>
-                            <form class="form-control d-flex justify-content-between align-items-center">
-                                <label for="zip-postal-code">Zip / Postal Code</label>
-                                <input type="text" name="zip-postal-code" class="form-default">
-                            </form>
-                            <button class="btn btn-lightgreen">
-                                Update
-                            </button>
-                        </div>                            
                     </div>
-                </div>       
+                    <div class="col-md-9 col-sm-12">
+                        <div class="simple-block">
+                            <div class="title-block">
+                                <span>Personal Information</span>
+                            </div>
+                            <!--== information-block ==  -->
+                            <div class="information-block">
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" name="first-name" class="form-default">
+                                </form>
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" name="last Name" class="form-default">
+                                </form>
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="company-name">Company Name</label>
+                                    <input type="text" name="company-name" class="form-default">
+                                </form>
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="country">Country</label>
+                                    <select name="country" id="">
+                                        <option value="">Select Your Country</option>
+                                        <option value="">Ukraine</option>
+                                        <option value="">Russia</option>
+                                    </select>
+                                </form>
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="address-line-1">Address Line 1</label>
+                                    <input type="text" name="address-line-1" class="form-default">
+                                </form>
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="address-line-2">Address Line 2</label>
+                                    <input type="text" name="address-line-2" class="form-default">
+                                </form>
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="city">City</label>
+                                    <input type="text" name="city" class="form-default">
+                                </form>
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="state-province-region">State / Province / Region</label>
+                                    <input type="text" name="state-province-region" class="form-default">
+                                </form>
+                                <form class="form-control d-flex flex-wrap justify-content-between align-items-center">
+                                    <label for="zip-postal-code">Zip / Postal Code</label>
+                                    <input type="text" name="zip-postal-code" class="form-default">
+                                </form>
+                                <button class="btn btn-lightgreen">
+                                    Update
+                                </button>
+                            </div>
+                            <!--== end information-block ==  -->                            
+                        </div>
+                    </div>       
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>    
     <!-- END PAGE-16 -->
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-form-styler@2.0.1/dist/jquery.formstyler.min.js"></script>
 
     <!-- Init plugins -->
     <script src="js/init.js"></script>
-
+    <script src="js/aside.js"></script>
+    
 </body>
 </html>

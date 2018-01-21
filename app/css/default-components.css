@@ -585,6 +585,17 @@ input[type="file"] + label{
     margin-left: 12px;
 }
  /* ----- input upload end----- */
+/* === textarea === */
+ .form-text{
+    border: 1px solid #dededec2;
+    padding: 14px 18px;
+    color: #707070;
+    background-color: #f9f9f9;
+    font: 400 15px/1 'Roboto', sans-serif;
+ }
+ /* === end textarea === */
+
+ 
 /* ===== Form end ===== */
 
 /* ===== Icon ===== */

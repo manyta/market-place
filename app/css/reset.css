@@ -29,3 +29,8 @@ img{
 textarea{
     resize: vertical;
 }
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
