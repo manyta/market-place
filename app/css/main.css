@@ -11,13 +11,37 @@
 .inner-form{
     margin-top: 52px;
 }
+
+@media (max-width: 991px){
+    .sub-header-main{
+        padding: 100px 0 90px;
+    }
+    .inner .inner-form{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 599px){
+    .inner-content span{
+        display: none;
+    }
+}
+
+@media (max-width: 479px){
+    .sub-header-main{
+        padding: 50px 0 40px;
+    }
+    .inner-content h1{
+        margin-bottom: 15px;
+    }
+}
 /* ===== Inner end ===== */
 
 /* ===== New release ===== */
 .new-release .tags{
-    margin: 60px 0;
+    margin: 60px 0 30px;
 }
-.new-release .row + .row {
+.new-release .card.large-card{
     margin-top: 30px;
 }
 .new-release-btn{
@@ -52,7 +76,7 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin: 20px 0 10px;
 }
 .mobile-list{
     width: 100%;
@@ -94,6 +118,12 @@
     display: block;
 }
 
+@media (max-width: 991px){
+    .new-release .title{
+        text-align: center;
+    }
+}
+
 @media (max-width: 767px){
     .mobile-list-wrap{
         display: -webkit-box;
@@ -101,6 +131,28 @@
         display: flex;
     }
 }
+
+@media (max-width: 599px){
+    .new-release .title{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 479px){
+    .new-release-btn{
+        display: block;
+        margin-top: 40px;
+    }
+    .btn.btn-main-items{
+        width: 100%;
+        text-align: center;
+    }
+    .new-release-btn a + a{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
 /* ===== New release end ===== */
 
 /* ===== Trending Products ===== */
@@ -114,6 +166,19 @@
 .trending-products .card-items-slider .card .card-author-info .card-author{
     outline: none;
 }
+
+@media (max-width: 991px){
+    .trending-products .title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 599px){
+    .trending-products .title{
+        font-size: 34px;
+    }
+}
+
 /* ===== Trending Products end ===== */
 
 /* ===== Why Choose ===== */
@@ -130,6 +195,24 @@
     text-align: center;
     color: #b0bec5;
     line-height: 24px;
+}
+
+@media (max-width: 991px){
+    .why-choose .why-choose-subtitle{
+        font-size: 22px;
+    }
+    .why-choose .title{
+        text-align: center;
+    }
+    .why-choose-market .row .col-sm-12 + .col-sm-12{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 599px){
+    .why-choose .title{
+        font-size: 34px;
+    }
 }
 /* ===== Why Choose end ===== */
 
@@ -158,6 +241,39 @@
 .banner .banner-lg .banner-sm .become-author-btn{
     margin-left: 30px;
 }
+
+@media (max-width: 767px){
+    .banner .banner-lg .banner-sm .title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .banner .btn.btn-big {
+        padding: 20px 40px;
+        font-size: 16px;
+    }
+    .banner .banner-lg {
+        height: 300px;
+    }
+}
+
+@media (max-width: 599px){
+    .banner .banner-lg .banner-sm{
+        padding: 40px 55px 50px;
+    }
+    .banner .banner-lg .banner-sm .become-author-btn{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .banner .banner-lg .banner-sm .title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 479px){
+    .banner .banner-lg .banner-sm{
+        padding: 40px 5px 50px;
+    }
+}
 /* ===== Banner end===== */
 
 /* ===== Free tutorials ===== */
@@ -171,5 +287,26 @@
 }
 .tutorials-card .tutorials-card-title .text-bold:hover{
     color: #8bc34a;
+}
+
+@media (max-width: 991px){
+    .tutorials-card .tutorials-card-title{
+        font-size: 20px;
+    }
+    .free-tutorials .title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+    .free-tutorials .col-sm-4 + .col-sm-4{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 599px){
+    .free-tutorials .title{
+        font-size: 34px;
+    }
 }
 /* ===== Free tutorials end ===== */
