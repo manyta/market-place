@@ -46,6 +46,52 @@
     right: 10px;
     bottom: 1px;
 }
+.mobile-list-wrap {
+    display: none;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.mobile-list{
+    width: 100%;
+    color: #263238;
+    font-weight: 500;
+    font-size: 14px;
+}
+.mobile-list .current{
+    padding: 15px 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+    color: #263238;
+}
+.mobile-list .current .fa-close{
+    display: none;
+}
+.mobile-list .current.selected .fa-close{
+    display: block;
+}
+.mobile-list .current.selected .fa-chevron-down{
+    display: none;
+}
+.mobile-list .dropdown-list{
+    background-color: #fff;
+    padding: 15px 30px;
+    display: none;
+    font-size: 16px;
+    color: #263238;    
+}
+.mobile-list .dropdown-list ul li a{
+    padding: 10px 0;
+    display: block;
+}
+
+@media (max-width: 767px){
+    .mobile-list-wrap{
+        display: flex;
+    }
+}
 /* ===== New release end ===== */
 
 /* ===== Trending Products ===== */

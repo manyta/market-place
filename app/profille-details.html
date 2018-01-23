@@ -104,18 +104,18 @@
     <!-- HEADER END -->
 
     <!-- MAIN -->
-    <main class="main">
+    <main id="main">
         <section class="inner-sm sub-header d-flex flex-column justify-content-center align-items-center">
             <div class="inner-sm-content txt-white">
                 <span class="subtitle">Premium WordPress Themes, Web Templates and Many More ...</span>
             </div>
-            <form class="inner-form d-flex justify-content-center">
+            <form class="inner-form d-flex justify-content-center align-items-center">
                 <input type="text" name="search-keywords" placeholder="Search Your Keywords . . ." class="sub-inner">
                 <i class="fa fa-search" aria-hidden="true"></i>
             </form>
         </section>
         <section class="profile-details bg-light-gray default-section-breadcrumbs">
-            <div class="container">
+            <div class="container d-flex justify-content-between">
                 <div class="breadcrumbs-wrap">
                     <ul class="breadcrumbs d-flex">
                         <li>
@@ -126,12 +126,17 @@
                     <!-- / breadcrumbs -->
                 </div>
                 <!-- / breadcrumbs-wrap -->
+                <button class="mobile-aside-toggle">
+                    <i class="fa fa-bars"></i>
+                </button>
             </div>
             <!-- / container -->
             <div class="container">
                 <div class="profile-details-wrap">
+                    <div class="overlay"></div>
+                    <!-- / overlay -->
                     <div class="row d-flex">
-                        <div class="col-md-3">
+                        <div class="col-md-3 mobile-aside left">
                             <div class="aside-section">
                                 <div class="aside-title">
                                     <span>About Author</span>
@@ -403,6 +408,7 @@
 
         <!-- Init plugins -->
         <script src="js/init.js"></script>
+        <script src="js/aside.js"></script>
 
 </body>
 

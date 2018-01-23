@@ -10,6 +10,36 @@
 .inner-form .sub-inner{
     box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.75);
 }
+
+@media (max-width: 767px){
+    .inner-form{
+        width: 80%;
+    }
+}
+
+@media (max-width: 599px){
+    .inner-form .sub-inner{
+        height: 50px;
+    }
+    .sub-header{
+        padding: 40px 0 45px;
+    }
+    .inner-sm-content {
+        width: 90%;
+    }
+}
+
+@media (max-width: 479px){
+    .inner-sm-content span{
+        font-size: 18px;
+    }
+    .inner-form .sub-inner{
+        height: 45px;
+    }
+    .sub-header{
+        padding: 30px 0;
+    }
+}
 /* ===== Inner end ===== */
 
 /* ===== Profile details ===== */
@@ -74,6 +104,9 @@
 }
 .profile-details-wrap .aside-navigation a:first-child{
     border-top: 0;
+}
+.mobile-aside-toggle{
+    display: none;
 }
 .profile-details-wrap .product-img{
     padding: 18px 20px;
@@ -145,6 +178,11 @@
     background-size: 30px 30px;
     border-radius: 4px 0 0 4px;
 
+}
+@media (max-width: 991px){
+    .mobile-aside-toggle{
+        display: block;
+    }
 }
 /* ===== Profile details end ===== */
   
