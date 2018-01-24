@@ -147,6 +147,9 @@
 /* ===== New release end ===== */
 
 /* ===== Trending Products ===== */
+.trending-products{
+    overflow: hidden;
+}
 .trending-products .title{
     margin-bottom: 55px;
 }
@@ -161,6 +164,14 @@
 @media (max-width: 991px){
     .trending-products .title{
         text-align: center;
+    }
+}
+@media (max-width: 767px){
+    .card.large-card .card-description{
+        padding: 25px 20px 15px;
+    }
+    .trending-products .card.large-card .card-author-info{
+        padding: 20px 20px;
     }
 }
 

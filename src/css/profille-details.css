@@ -8,7 +8,7 @@
     margin-top: 20px;
 }
 .inner-form .sub-inner{
-    box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.75);
+    box-shadow: 0 1px 10px rgba(100, 100, 100, 0.75);
 }
 
 @media (max-width: 767px){
@@ -31,7 +31,7 @@
 
 @media (max-width: 479px){
     .inner-sm-content span{
-        font-size: 18px;
+        font-size: 17px;
     }
     .inner-form .sub-inner{
         height: 45px;
@@ -43,6 +43,10 @@
 /* ===== Inner end ===== */
 
 /* ===== Profile details ===== */
+.profile-details button{
+    background-color: transparent;
+}
+
 .profile-details-wrap .aside-section{
     width: 100%;
     background-color: #fff;
@@ -179,9 +183,58 @@
     border-radius: 4px 0 0 4px;
 
 }
+
+@media (max-width: 1199px){
+    .profile-details-wrap .aside-navigation a{
+        font-size: 13px;
+    }
+    .profile-details-wrap .aside-section{
+        padding: 25px 20px;
+    }
+}
+
 @media (max-width: 991px){
     .mobile-aside-toggle{
         display: block;
+    }
+}
+
+@media (max-width: 599px){
+    .profile-details-wrap .info-bar .info-bar-status{
+        width: 50%;
+    }
+    .profile-details-wrap .info-bar .info-bar-status:nth-child(2){
+        border-right: none;
+    }
+    .profile-details-wrap .info-bar .info-bar-status:nth-child(3),
+    .profile-details-wrap .info-bar .info-bar-status:nth-child(4){
+        border-top: 1px solid rgb(220, 220, 220);
+    }
+}
+
+@media (max-width: 479px){
+    .profile-details-wrap .product-img{
+        padding: 5px;
+    }
+    .profile-details-wrap .info-bar .info-bar-status{
+        width: 100%;
+    }
+    .profile-details-wrap .info-bar .info-bar-status:first-child{
+        border-bottom: 1px solid rgb(220, 220, 220);
+    }
+    .profile-details-wrap .info-bar .info-bar-status:nth-child(odd){
+        border-right: none;
+    }
+    .about-me p{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .about-me-skills .text-size-common{
+        font-size: 14px;
+    }
+    .about-me .about-me-skills .progress-wrap .progress{
+        height: 12px;
+        margin-top: 8px;
     }
 }
 /* ===== Profile details end ===== */
