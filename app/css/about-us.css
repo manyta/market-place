@@ -1,0 +1,48 @@
+.about-us {
+  margin-top: 155px;
+  padding: 50px 0 145px;
+}
+
+.about-us-content {
+  border: 1px solid #dedede;
+  margin-top: 40px;
+}
+
+.about-us-content__title {
+  padding: 20px 20px 24px 34px;
+  
+  border-bottom: 1px solid #dedede;
+}
+
+.about-us-content__title > * {
+  font-size: 24px;
+}
+
+.about-us-content__item {
+  margin: 45px 65px 55px 50px;
+}
+
+.about-us-content__item-title {
+  color: #444;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.about-us-content__item-text {
+  color: #707070;
+  line-height: 1.6;
+}
+
+/********* Media queries*************/
+
+@media (max-width: 600px) {
+  .about-us-content__title > * {
+    font-size: 21px;
+  }
+  .about-us-content__item-title span {
+    font-size: 18px;
+  }
+  .about-us-content__item {
+    margin: 25px 15px 25px 15px;
+  }
+}

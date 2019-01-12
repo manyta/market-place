@@ -5,15 +5,6 @@ $('.multiple-items').slick({
     slidesToScroll: 4,
     autoplay: true,
     arrows: false,
-<<<<<<< HEAD
-    dots: true
-  });
-
-  // init form stiler for select
-  $('select').styler();
-  
-=======
-    dots: true,
     responsive: [
       {
         breakpoint: 1199,
@@ -45,8 +36,17 @@ $('.multiple-items').slick({
   });
 
 // init slick nav
-$('.bottom-header-nav').slicknav({
-  appendTo: '.header .top-header .container',
-  label: ''
-});
->>>>>>> dev
+// $('.bottom-header-nav').slicknav({
+//   appendTo: '.header .top-header .container',
+//   label: ''
+// });
+
+// Login modal
+let openModalsBtns = $('[data-modal]');
+
+openModalsBtns.on('click', function () {
+  let target = $(this).attr('data-target');
+
+  $('.modal').bPopup();
+})
+
