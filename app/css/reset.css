@@ -33,4 +33,10 @@ button{
     outline: none;
     border: none;
     cursor: pointer;
+<<<<<<< HEAD
+=======
+}
+button:hover, button:active, button:focus{
+    outline: none !important;
+>>>>>>> dev
 }
