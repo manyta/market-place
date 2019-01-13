@@ -1,0 +1,43 @@
+/* === upload-product === */
+.upload-product .container{
+    padding-bottom: 108px;
+}
+.form-upload .form-default{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 900px;
+}
+.form-upload .form-text{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 900px;
+    height: 150px;
+}
+.information-block .form-upload + .form-upload{
+    margin-top: 23px;
+}
+.information-block sup{
+    color: #8bc34a;
+    font-size: 24px;
+}
+.information-block .form-upload .jq-selectbox{
+    max-width: 900px;
+}
+.upload-product .information-block .btn.btn-lightgreen{
+    margin-left: 157px;
+}
+@media (max-width: 1199px){
+    .form-upload .form-default,
+    .form-upload .form-text,
+    .information-block .form-upload .jq-selectbox{
+        margin-top: 10px;
+    }
+    .upload-product .information-block .btn.btn-lightgreen{
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+/* === end upload-product === */

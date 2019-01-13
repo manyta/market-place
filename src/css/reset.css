@@ -28,3 +28,16 @@ img{
 textarea{
     resize: vertical;
 }
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+button:hover, button:active, button:focus{
+    outline: none !important;
+}
+input,
+select,
+option {
+    outline: none;
+}

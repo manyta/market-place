@@ -1,0 +1,323 @@
+/* ===== Inner ===== */
+.inner{
+	background: url("../img/inner-bg.jpg") no-repeat center / cover;
+	text-align: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.inner-content h1{
+    margin-bottom: 35px;
+}
+.inner-form{
+    margin-top: 52px;
+}
+
+@media (max-width: 991px){
+    .sub-header-main{
+        padding: 100px 0 90px;
+    }
+    .inner .inner-form{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 599px){
+    .inner-content span{
+        display: none;
+    }
+}
+
+@media (max-width: 479px){
+    .sub-header-main{
+        padding: 50px 0 40px;
+    }
+    .inner-content h1{
+        margin-bottom: 15px;
+    }
+}
+/* ===== Inner end ===== */
+
+/* ===== New release ===== */
+.new-release .tags{
+    margin: 60px 0 30px;
+}
+.new-release .card.large-card{
+    margin-top: 30px;
+}
+.new-release-btn{
+    margin-top: 78px;
+}
+.new-release-btn a + a{
+    margin-left: 12px;
+}
+.card-img{
+    position: relative;
+}
+.card-img a{
+    outline: none;
+}
+.card-img .card-label{
+    position: absolute;
+    border: 30px solid #8bc34a;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    width: 0;
+    height: 0; 
+}
+.card-img .card-label .fa{
+    position: absolute;
+    font-size: 18px;
+    color: #fff;
+    right: 10px;
+    bottom: 1px;
+}
+.mobile-list-wrap {
+    display: none;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 20px 0 10px;
+}
+.mobile-list{
+    width: 100%;
+    color: #263238;
+    font-weight: 500;
+    font-size: 14px;
+}
+.mobile-list .current{
+    padding: 15px 30px;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 18px;
+    color: #263238;
+}
+.mobile-list .current .fa-close{
+    display: none;
+}
+.mobile-list .current.selected .fa-close{
+    display: block;
+}
+.mobile-list .current.selected .fa-chevron-down{
+    display: none;
+}
+.mobile-list .dropdown-list{
+    background-color: #fff;
+    padding: 15px 30px;
+    display: none;
+    font-size: 16px;
+    color: #263238;    
+}
+.mobile-list .dropdown-list ul li a{
+    padding: 10px 0;
+    display: block;
+}
+
+@media (max-width: 991px){
+    .new-release .title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+    .mobile-list-wrap{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (max-width: 599px){
+    .new-release .title{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 479px){
+    .new-release-btn{
+        display: block;
+        margin-top: 40px;
+    }
+    .btn.btn-main-items{
+        width: 100%;
+        text-align: center;
+    }
+    .new-release-btn a + a{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* ===== New release end ===== */
+
+/* ===== Trending Products ===== */
+.trending-products{
+    overflow: hidden;
+}
+.trending-products .title{
+    margin-bottom: 55px;
+}
+.trending-products .card-items-slider .card{
+    margin: 0 15px;
+}
+.trending-products .card-items-slider .card .card-description .title,
+.trending-products .card-items-slider .card .card-author-info .card-author{
+    outline: none;
+}
+
+@media (max-width: 991px){
+    .trending-products .title{
+        text-align: center;
+    }
+}
+@media (max-width: 767px){
+    .card.large-card .card-description{
+        padding: 25px 20px 15px;
+    }
+    .trending-products .card.large-card .card-author-info{
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 599px){
+    .trending-products .title{
+        font-size: 34px;
+    }
+}
+
+/* ===== Trending Products end ===== */
+
+/* ===== Why Choose ===== */
+.why-choose .title{
+    margin-bottom: 82px;
+}
+.why-choose .why-choose-subtitle{
+    margin: 32px 0 23px 0;
+}
+.why-choose .why-choose-subtitle:hover{
+    color: #8bc34a;
+}
+.why-choose p{
+    text-align: center;
+    color: #b0bec5;
+    line-height: 24px;
+}
+
+@media (max-width: 991px){
+    .why-choose .why-choose-subtitle{
+        font-size: 22px;
+    }
+    .why-choose .title{
+        text-align: center;
+    }
+    .why-choose-market .row .col-sm-12 + .col-sm-12{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 599px){
+    .why-choose .title{
+        font-size: 34px;
+    }
+}
+/* ===== Why Choose end ===== */
+
+/* ===== Banner ===== */
+.banner .banner-lg{
+    height: 440px;
+    width: 1100px;
+    position: relative;
+    -webkit-box-shadow: 0 0 45px rgba(181, 181, 181, 1);
+    box-shadow: 0 0 45px rgba(181, 181, 181, 1);
+}
+.banner .banner-lg .banner-sm{
+    position: absolute;
+    padding: 70px 55px 80px;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    width: 100%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.banner .banner-lg .banner-sm .title{
+    font-size: 30px;
+    line-height: 36px;
+}
+.banner .banner-lg .banner-sm .become-author-btn{
+    margin-left: 30px;
+}
+
+@media (max-width: 767px){
+    .banner .banner-lg .banner-sm .title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .banner .btn.btn-big {
+        padding: 20px 40px;
+        font-size: 16px;
+    }
+    .banner .banner-lg {
+        height: 300px;
+    }
+}
+
+@media (max-width: 599px){
+    .banner .banner-lg .banner-sm{
+        padding: 40px 55px 50px;
+    }
+    .banner .banner-lg .banner-sm .become-author-btn{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .banner .banner-lg .banner-sm .title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 479px){
+    .banner .banner-lg .banner-sm{
+        padding: 40px 5px 50px;
+    }
+}
+/* ===== Banner end===== */
+
+/* ===== Free tutorials ===== */
+.free-tutorials .row {
+    margin-top: 65px;
+}
+.tutorials-card .tutorials-card-title{
+    font-size: 24px;
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+.tutorials-card .tutorials-card-title .text-bold:hover{
+    color: #8bc34a;
+}
+
+@media (max-width: 991px){
+    .tutorials-card .tutorials-card-title{
+        font-size: 20px;
+    }
+    .free-tutorials .title{
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px){
+    .free-tutorials .col-sm-4 + .col-sm-4{
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 599px){
+    .free-tutorials .title{
+        font-size: 34px;
+    }
+}
+/* ===== Free tutorials end ===== */
