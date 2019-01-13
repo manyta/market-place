@@ -5,40 +5,6 @@
 .border-grey {
     border: 1px solid #dedede;
 }
-/* ===== Style.css start===== */
-/* ===== subheader start ===== */
-.subheader {
-    margin-top: 150px;
-    position: relative;
-    background: url(../img/sub-header-img.jpg) no-repeat center /cover;
-    height: 230px;
-}
-.search-form {
-    position: absolute;
-    top: 25%;
-    right: 25%;
-    width: 670px;
-}
-.search-form-home-page .fa-search {
-    cursor: pointer;
-}
-.search-form-title {
-    font-size: 20px;
-    margin-bottom: 25px;
-    color: #fff;
-    text-align: center;
-}
-.search-form-text {
-    padding: 15px 50px 15px 15px;
-    font-size: 14px;
-    box-shadow: 0px 1px 10px 0px rgba(100, 100, 100, 0.75);
-}
-.fa-search {
-    position: absolute;
-    right: 20px;
-    top: 64%;
-}
-/* ===== subheader start ===== */
 /* ===== Card Section start =====*/
 .row-margin-top {
     margin-top: 30px;
@@ -78,6 +44,9 @@
 }
 .aside .item-wrap-aside .aside-btn {
     margin-top: 40px;
+}
+.aside-item li:hover{
+    color: #8bc34a;
 }
 .card.item-wrap-aside .card-img,
 .card.item-wrap-aside .card-description-wrapper {
@@ -128,8 +97,5 @@
 .change-icon:hover,
 .change-icon:active {
     color:#8bc34a;
-}
-.change-icon:active {
-
 }
 /* ===== Content Section end =====*/

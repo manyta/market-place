@@ -234,6 +234,14 @@
 }
 /* ===== Breadcrumbs end ===== */
 
+/* ===== Border ====== */
+.content-border{
+    padding: 44px 37px 34px 37px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    border-top: none;
+}
+
 /* ===== Btn ====== */
 .btn{
     display: inline-block;

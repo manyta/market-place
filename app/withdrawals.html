@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <title>Withdrawals</title>
 
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -27,20 +30,15 @@
     <!-- Sprite -->
     <link rel="stylesheet" href="css/sprite.css">
 
-    <!-- Slick nav -->
-    <link rel="stylesheet" href="css/slicknav.css">
-
     <!-- Components -->
     <link rel="stylesheet" href="css/default-components.css">
-    <link rel="stylesheet" href="css/contact.css">
-
+    <link rel="stylesheet" href="css/withdrawals.css">
 </head>
-
 <body>
     <!-- HEADER -->
     <header class="header">
         <div class="top-header">
-            <div class="container d-flex justify-content-between align-items-center flex-wrap">
+            <div class="container d-flex justify-content-between align-items-center">
                 <div class="logo mr-auto">
                     <a href="">
                         <img src="img/logo.png" alt="">
@@ -52,44 +50,42 @@
                     <span class="text-grey">Talk to an expert: +61 3 8376 6284</span>
                 </div>
                 <!-- / need-help -->
-                <div class="top-bar d-flex align-items-center">
-                    <div class="notification d-flex">
-                        <a href="" class="icon-circle">
-                            <i class="fa fa-bell-o" aria-hidden="true"></i>
-                            <span class="tag-icon bg-yellow">8</span>
-                        </a>
-                        <a href="" class="icon-circle">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                            <span class="tag-icon bg-orange">5</span>
-                        </a>
-                        <a href="" class="icon-circle">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                            <span class="tag-icon bg-lightgreen">8</span>
-                        </a>
-                    </div>
-                    <!-- / notification -->
-                    <div class="dropdown-container">
-                        <div class="user-controls d-flex justify-content-between">
-                            <div class="avatar">
-                                <img src="img/avatar.png" alt="">
-                            </div>
-                            <div class="user-data d-flex flex-column justify-content-between">
-                                <span>Mike Hussy</span>
-                                <span class="text-green">$171.00</span>
-                            </div>
-                            <i class="fa fa-angle-down" aria-hidden="true"></i>
-                        </div>
-                        <!-- / user-controls -->
-                    </div>
-                    <!-- / dropdown-container -->
-                    <button href="" class="btn btn-red btn-radius open-login-modal" data-modal data-target="#login-modal">Logout</button>
+                <div class="notification d-flex">
+                    <a href="" class="icon-circle">
+                        <i class="fa fa-bell-o" aria-hidden="true"></i>
+                        <span class="tag-icon bg-yellow">8</span>
+                    </a>
+                    <a href="" class="icon-circle">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        <span class="tag-icon bg-orange">5</span>
+                    </a>
+                    <a href="" class="icon-circle">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <span class="tag-icon bg-lightgreen">8</span>
+                    </a>
                 </div>
+                <!-- / notification -->
+                <div class="dropdown-container">
+                    <div class="user-controls d-flex justify-content-between">
+                        <div class="avatar">
+                            <img src="img/avatar.png" alt="">
+                        </div>
+                        <div class="user-data d-flex flex-column justify-content-between">
+                            <span>Mike Hussy</span>
+                            <span class="text-green">$171.00</span>
+                        </div>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>
+                    <!-- / user-controls -->
+                </div>
+                <!-- / dropdown-container -->
+                <button href="" class="btn btn-red btn-radius open-login-modal" data-modal data-target="#login-modal">Logout</button>
             </div>
         </div>
         <!-- / top-header -->
         <div class="bottom-header">
             <div class="container">
-                <nav class="bottom-header-nav d-flex">
+                <nav class="bottom-header-nav">
                     <a href="">Home</a>
                     <a href="">About</a>
                     <a href="">WordPress</a>
@@ -98,7 +94,7 @@
                     <a href="">Plugins</a>
                     <a href="">Components</a>
                     <a href="">Pages</a>
-                    <a href="" class="active">Contact</a>
+                    <a href="">Contact</a>
                     <a href="">Help</a>
                 </nav>
                 <!-- / bottom-header-nav -->
@@ -108,7 +104,6 @@
     </header>
     <!-- HEADER END -->
 
-    <!-- MAIN -->
     <main id="main">
         <section class="inner-sm sub-header d-flex flex-column justify-content-center align-items-center">
             <div class="inner-sm-content txt-white">
@@ -119,94 +114,101 @@
                 <i class="fa fa-search" aria-hidden="true"></i>
             </form>
         </section>
-        <section class="contact-us bg-light-gray default-section-breadcrumbs">
-            <div class="container">
+        <section class="profile-details bg-light-gray default-section-breadcrumbs">
+            <div class="container d-flex justify-content-between">
                 <div class="breadcrumbs-wrap">
                     <ul class="breadcrumbs d-flex">
                         <li>
                             <a href="">Home</a>
                         </li>
-                        <li class="breadcrumbs-active">Contact</li>
+                        <li class="breadcrumbs-active">Withdrawals</li>
                     </ul>
                     <!-- / breadcrumbs -->
                 </div>
                 <!-- / breadcrumbs-wrap -->
+                <button class="mobile-aside-toggle">
+                    <i class="fa fa-bars"></i>
+                </button>
             </div>
             <!-- / container -->
             <div class="container">
-                <div class="contact-us-title title-page">
-                    <span>To Know Who We Are</span>
-                </div>
-                <div class="contact-us-content">
-                    <div class="contact-us-map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.840108181598!2d144.95373631495667!3d-37.81721397975169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sru!2sua!4v1516382256709"
-                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="withdrawl-body d-flex">
+                    <div class="w-earnings mr-auto">
+                    <div class="table-title bg-white d-flex align-items-center">
+                        <span>Withdrawal Earnings</span>
                     </div>
-                    <!-- / contact-us-map -->
-                    <div class="row d-flex">
-                        <div class="col-md-4 col-xs-12">
-                            <div class="contact">
-                                <div class="contact-us-address d-flex">
-                                    <div class="contact-us-icon txt-green">
-                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                    </div>
-                                    <!-- / contact-us-icon -->
-                                    <div class="contact-us-text">
-                                        <span class="subtitle">Our Office Address</span>
-                                        <span class="contact-data">PO Box 16122 Collins Street West Victoria 8007 Australia</span>
-                                    </div>
-                                    <!-- / contact-us-text -->
-                                </div>
-                                <!-- / contact-us-address -->
-                                <div class="contact-us-address d-flex">
-                                    <div class="contact-us-icon txt-green">
-                                        <i class="fa fa-phone" aria-hidden="true"></i>
-                                    </div>
-                                    <!-- / contact-us-icon -->
-                                    <div class="contact-us-text">
-                                        <span class="subtitle">Phone</span>
-                                        <span class="contact-data">+61 3 8376 6284</span>
-                                    </div>
-                                    <!-- / contact-us-text -->
-                                </div>
-                                <!-- / contact-us-address -->
-                                <div class="contact-us-address d-flex">
-                                    <div class="contact-us-icon txt-green">
-                                        <i class="fa fa-phone" aria-hidden="true"></i>
-                                    </div>
-                                    <!-- / contact-us-icon -->
-                                    <div class="contact-us-text">
-                                        <span class="subtitle">E-mail</span>
-                                        <span class="contact-data">info@foxtar.com</span>
-                                    </div>
-                                    <!-- / contact-us-text -->
-                                </div>
-                                <!-- / contact-us-address -->
-                            </div>
-                        </div>
-                        <!-- / col-md-4 -->
-                        <div class="col-md-8 col-xs-12">
-                            <div class="drop-us-message-title">
-                                <span>Drop Us A Message</span>
-                            </div>
-                            <form class="drop-us-message">
-                                <div class="user-message d-flex">
-                                    <input type="text" name="name_user" placeholder="Name*" class="form-message">
-                                    <input type="text" name="email_user" placeholder="E-mail*" class="form-message">
-                                </div>
-                                <div class="message d-flex">
-                                    <textarea name="message-user" placeholder="Message*" class="form-message"></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-bold btn-lightgreen">Send Message</button>
-                            </form>
-                            <!-- / drop-us-message -->
-                        </div>
+                    <div class="earnings-body bg-white">
+                        <label for="ammount-to-withdraw" >Amount to Withdraw ($2000.00 Maximum) <span>*</span></label>
+                        <input type="text" id="ammount-to-withdraw" placeholder="Enter the amount you want to withdraw...">
+        
+                        <label for="choose-your-method" >Choose your Withdraw Method <span>*</span></label>
+                        <input type="text" id="choose-your-method" placeholder="Select Your Card">
+        
+                        <label for="your-account-name" >Your Account Name<span>*</span></label>
+                        <input type="text" id="your-account-name" placeholder="Select Your Card">
+        
+        
+                        <label for="confirm-password" >Confirm Your Password <span>*</span></label>
+                        <input type="text" id="confirm-password" placeholder="Select Your Card">
+        
                     </div>
-                    <!-- / row -->
+                    </div>
+                <div class="withdrawl-history">
+                    <div class="table-title bg-white d-flex align-items-center">
+                        <span>Withdrawal History</span>
+                    </div>
+                    <div class="w-history bg-white">
+                                <table class="table withdrawl-table">
+                    <tbody>
+                        <tr>
+                            <th>Dec 26th, 2016</th>
+                            <th>Psdboss@paypal.com</th>
+                            <th>$200</th>
+                            <th>Pending</th>
+                        </tr>
+                        <tr>
+                            <td>Dec 26th, 2016</td>
+                            <td>Psdboss@paypal.com</td>
+                            <td>$200</td>
+                            <td>Paid</td>
+                        </tr>
+                        <tr>
+                            <td>Dec 26th, 2016</td>
+                            <td>Psdboss@paypal.com</td>
+                            <td>$200</td>
+                            <td>Paid</td>
+                        </tr>
+                        <tr>
+                            <td>Dec 26th, 2016</td>
+                            <td>Psdboss@paypal.com</td>
+                            <td>$200</td>
+                            <td>Paid</td>
+                        </tr>
+                        <tr>
+                            <td>Dec 26th, 2016</td>
+                            <td>Psdboss@paypal.com</td>
+                            <td>$200</td>
+                            <td>Paid</td>
+                        </tr>
+                        <tr>
+                            <td>Dec 26th, 2016</td>
+                            <td>Psdboss@paypal.com</td>
+                            <td>$200</td>
+                            <td>Paid</td>
+                        </tr>
+                        <tr>
+                            <td>Dec 26th, 2016</td>
+                            <td>Psdboss@paypal.com</td>
+                            <td>$200</td>
+                            <td>Paid</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    </div>
                 </div>
-                <!-- / contact-with-us -->
+                </div>
+                </div>
             </div>
-
         </section>
     </main>
     <!-- MAIN END -->
@@ -365,11 +367,10 @@
             <!-- / login-modal-content-->
         </div>
     </div>
-    <!-- /LOGIN-MODAL END -->
+    <!-- /LOGIN-MODAL -->
 
     <!--jQuery-->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
 
@@ -381,7 +382,5 @@
     <script src="js/tags.js"></script>
     <script src="js/tabs.js"></script>
     <script src="js/aside.js"></script>
-
 </body>
-
 </html>

@@ -151,11 +151,7 @@
     margin-top: 30px;
 }
 .aside .item-description {
-<<<<<<< HEAD
-    padding: 0px;
-=======
     padding: 0;
->>>>>>> dev
 }
 .aside .item-img-vertical {
     margin-left: auto;
@@ -164,10 +160,7 @@
 }
 .aside .item-author-vertical {
     padding: 15px 0 20px;
-<<<<<<< HEAD
-=======
 }
-
 @media (max-width: 991px){
     .mobile-aside{
         position: absolute;
@@ -199,7 +192,6 @@
         z-index: 98;
         opacity: 1;
     }
->>>>>>> dev
 }
 /* ===== Aside Section End ===== */
 
@@ -241,21 +233,22 @@
     color: #8bc34a;
     left: 47px;
     position: absolute;
-<<<<<<< HEAD
 }
 .breadcrumbs li + li {
     margin-left: 20px;
 }
-=======
-}
-.breadcrumbs li + li {
-    margin-left: 20px;
-}
->>>>>>> dev
 .breadcrumbs .breadcrumbs-active{
     color: #263238;
 }
 /* ===== Breadcrumbs end ===== */
+
+/* ===== Border ====== */
+.content-border{
+    padding: 44px 37px 34px 37px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    border-top: none;
+}
 
 /* ===== Btn ====== */
 .btn{
@@ -446,27 +439,16 @@
 .card .card-author-info .product-download::after{
     content: ')';
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> dev
 .card.large-card .card-description{
     padding: 25px 30px 15px;
 }
 .card.large-card .card-description .title{
     font-size: 18px;
     margin-bottom: 5px;
-<<<<<<< HEAD
 }
 .card.large-card .card-author-info{
     padding: 20px 30px;
 }
-=======
-}
-.card.large-card .card-author-info{
-    padding: 20px 30px;
-}
->>>>>>> dev
 
 .card.medium-card .card-description{
     padding: 25px 20px 20px;
@@ -488,19 +470,11 @@
 .card.row-card .card-img,
 .card.row-card .card-description-wrapper{
     border: none;
-<<<<<<< HEAD
 }
 .card.row-card .card-img img{
     width: 240px;
     height: 180px;
 }
-=======
-}
-.card.row-card .card-img img{
-    width: 240px;
-    height: 180px;
-}
->>>>>>> dev
 .card.row-card .card-description-wrapper{
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;

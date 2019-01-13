@@ -1,30 +1,30 @@
-/* === upload-product === */
-.upload-product .container{
+.upload-product{
     padding-bottom: 108px;
 }
 .form-upload .form-default{
-    box-sizing: border-box;
     width: 100%;
     max-width: 900px;
 }
-.form-upload .form-text{
-    box-sizing: border-box;
+.form-upload textarea{
     width: 100%;
     max-width: 900px;
     height: 150px;
+    padding-top: 12px;
 }
-.information-block .form-upload + .form-upload{
+.upload-content .form-upload + .form-upload{
     margin-top: 23px;
 }
-.information-block sup{
+.upload-content sup{
     color: #8bc34a;
     font-size: 24px;
 }
-.information-block .form-upload .jq-selectbox{
-    max-width: 900px;
+.upload-product .title-page.sub {
+    border-top: none;
 }
-.upload-product .information-block .btn.btn-lightgreen{
-    margin-left: 157px;
+.upload-product .btn.btn-lightgreen {
+    padding: 16px 30px;
+    font-weight: 500;
+    margin-top: 25px;
 }
 @media (max-width: 1199px){
     .form-upload .form-default,

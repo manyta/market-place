@@ -40,11 +40,7 @@ gulp.task('tinypng', function () {
         'src/img/**/*.jpg',
         'src/img/**/*.png'
     ])
-<<<<<<< HEAD
-    .pipe(tinypng('Wk9bCQCit0T-LgoU3O6dqSULozXUvjZX'))
-=======
     .pipe(tinypng('fBxZpCv46E8ORLRfeAPCi6BLttNlJh75'))
->>>>>>> dev
     .pipe(gulp.dest('app/img/'));
 });
 
