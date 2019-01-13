@@ -1,17 +1,6 @@
-.about-us {
-  margin-top: 155px;
-  padding: 50px 0 145px;
-}
-
 .about-us-content {
   border: 1px solid #dedede;
   margin-top: 40px;
-}
-
-.about-us-content__title {
-  padding: 20px 20px 24px 34px;
-  
-  border-bottom: 1px solid #dedede;
 }
 
 .about-us-content__title > * {
