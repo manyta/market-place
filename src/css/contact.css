@@ -1,4 +1,10 @@
 /* ===== Contact-us ===== */
+.contact-us-content{
+    padding: 32px 39px 14px 39px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    border-top: none;
+}
 .contact-us-content .contact-us-map{
     margin-bottom: 60px;
 }

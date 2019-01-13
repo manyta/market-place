@@ -263,6 +263,13 @@
     background-color: transparent;
     border: 2px solid #fff;
     border-radius: 4px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.btn.btn-error:hover{
+    background-color: #fff;
+    border-color: transparent;
+    color: #76ae36;
 }
 .btn.btn-submit{
     padding: 19px 43px;
@@ -354,14 +361,7 @@
     }
 }
 /* ===== Btn end ===== */
-/* ===== Border ===== */
-.border-content{
-    padding: 32px 39px 14px 39px;
-    border: 1px solid #dcdcdc;
-    background-color: #fff;
-    border-top: none;
-}
-/* ===== Border end ===== */
+
 /* ===== Card-Item ===== */
 .card .card-img{
     border: 1px solid #ebeeef;
@@ -664,7 +664,7 @@ textarea.form-message{
 .form-default{
     border: 1px solid #dedede;
     height: 40px;
-    padding: 14px 18px;
+    padding: 0 18px;
     color: #707070;
     background-color: #f9f9f9;
     font: 400 15px/1 'Roboto', sans-serif;
@@ -885,7 +885,7 @@ input[type="file"] + label{
     padding: 26px 0 26px 37px;
     border: 1px solid #dcdcdc;
     background-color: #fff;
-    color: #444;
+    color: #263238;
 }
 .why-choose-subtitle {
 	font-size: 24px;

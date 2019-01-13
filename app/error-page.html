@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>All new items</title>
+    <title>Error page</title>
 
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -84,7 +84,7 @@
                 <!-- / user-controls -->
             </div>
             <!-- / dropdown-container -->
-            <a href="" class="btn btn-red btn-radius">Logout</a>
+            <button href="" class="btn btn-red btn-radius open-login-modal" data-modal data-target="#login-modal">Logout</button>
         </div>
     </div>
     <!-- / top-header -->
@@ -106,29 +106,38 @@
         </div>
     </div>
     <!-- / bottom-header -->
-</header>
+    </header>
 <!-- HEADER END -->
 
 <!-- MAIN START -->
-<main id="main">
-    <!-- ABOUT_US -->
+<main class="main">
+    <section class="inner-sm sub-header d-flex flex-column justify-content-center align-items-center">
+        <div class="inner-sm-content txt-white">
+            <span class="subtitle">Premium WordPress Themes, Web Templates and Many More ...</span>
+        </div>
+        <form class="inner-form d-flex justify-content-center align-items-center">
+            <input type="text" name="search-keywords" placeholder="Search Your Keywords . . ." class="sub-inner">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </form>
+    </section>
+    <!-- / inner-sm -->
     <div class="error-page bg-light-gray">
-        <!-- BREADCRUMBS-->
         <div class="container">
             <div class="breadcrumbs-wrap">
                 <ul class="breadcrumbs d-flex">
                     <li>
                         <a href="">Home</a>
                     </li>
-                    <li class="breadcrumbs-line">-</li>
-                    <li class="breadcrumbs-active txt-dark">404 Page</li>
+                    <li class="breadcrumbs-active">404 page</li>
                 </ul>
+                <!-- / breadcrumbs -->
             </div>
+            <!-- / breadcrumbs-wrap -->
         </div>
-        <!-- BREADCRUMBS END -->
+        <!-- / container -->
         <div class="container">
             <div class="error-page-content">
-                <div class="error-page-content__title why-choose-subtitle txt-dark bg-white">
+                <div class="title-page">
                     <span>Error Page</span>
                 </div>
                 <!-- / error-page-content__title -->
@@ -276,13 +285,49 @@
 </footer>
 <!-- FOOTER END -->
 
+<!-- Login Modal -->
+<div class="login-modal bg-green modal" id="login-modal">
+    <div class="d-flex justify-content-center">
+        <div class="fa fa-times b-close"></div>
+        <div class="login-modal-content d-flex flex-column">
+            <h2 class="welcome-title login-modal-title">Login</h2>
+            <form class="login-form">
+                <div class="login-input-wrapper">
+                    <label for="user-name" class="fa fa-user"></label>
+                    <input type="text" name="user-name" placeholder="Name" id="user-name">
+                </div>
+                <!-- / login-input-wrapper-->
+                <div class="login-input-wrapper">
+                    <label for="user-password" class="fa fa-lock"></label>
+                    <input type="password" name="user-password" placeholder="Password" id="user-password">
+                </div>
+                <!-- / login-input-wrapper-->
+                <div class="login-button-wrapper d-flex">
+                    <button type="submit" class="btn btn-submit bg-white txt-black btn-shadow btn-submit-login">Submit</button>
+                    <a type="button" class="btn btn-login-creat"><i class="fa fa-pencil-square-o"></i>Creat An Account?</a>
+                </div>
+                <!-- / login-button-wrapper-->
+            </form>
+            <!-- / login-form-->
+            <a href="#" class="login-modal-lost-password">Lost Password?</a>
+        </div>
+        <!-- / login-modal-content-->
+    </div>
+</div>
+<!-- /LOGIN-MODAL -->
 <!--jQuery-->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 
+<!-- bPopup -->
+<script src="js/jquery.bpopup.min.js"></script>
+
 <!-- Init plugins -->
 <script src="js/init.js"></script>
+<script src="js/tags.js"></script>
+<script src="js/tabs.js"></script>
+<script src="js/aside.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,11 @@
-.about-us-content {
-  border: 1px solid #dedede;
-  margin-top: 40px;
+.about-us-content-border{
+  padding: 44px 37px 34px 37px;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  border-top: none;
+}
+.about-us-content + .about-us-content{
+  margin-top: 34px;
 }
 
 .about-us-content__title > * {
@@ -11,13 +16,13 @@
   margin: 45px 65px 55px 50px;
 }
 
-.about-us-content__item-title {
+.about-us-content-title {
   color: #444;
   font-size: 20px;
   margin-bottom: 20px;
 }
 
-.about-us-content__item-text {
+.about-us-content-text {
   color: #707070;
   line-height: 1.6;
 }

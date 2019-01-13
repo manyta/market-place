@@ -1,5 +1,7 @@
 /* === SETTING === */
-
+.settings {
+    padding-bottom: 150px;
+}
 /* = aside-nav = */
 .settings .aside-nav a{
     padding: 19px 22px;
@@ -7,15 +9,24 @@
     font-size: 14px;
     border-bottom: 1px solid #d7d7d7;
 }
-.settings .aside-nav a.active{
+.settings .aside-nav a .fa {
+    font-size: 14px;
+    margin-right: 23px;
+}
+.settings .aside-nav {
+    border: 1px solid #d7d7d7;
+    border-bottom: none;
+    background-color: #fff;
+}
+.settings .aside-nav a.active,
+.settings .aside-nav a:hover{
     color: #37474f;
     border-bottom: 2px solid #8bc34a;
+    font-weight: 500;
 }
-.settings .aside-nav a.active .fa{
+.settings .aside-nav a.active .fa,
+.settings .aside-nav a:hover .fa{
     color: #8bc34a;
-}
-.settings .simple-block i+span{
-    margin-left: 22px;
 }
 @media (max-width: 991px){
     .mobile-aside{
@@ -62,8 +73,16 @@
     }
 }
 
-.settings .simple-block{
-    margin-bottom: 150px;
+.settings-content-border{
+    padding: 44px 37px 34px 37px;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    border-top: none;
+}
+.settings .btn.btn-lightgreen {
+    padding: 16px 30px;
+    font-weight: 500;
+    margin-top: 25px;
 }
 .settings .form-control + .form-control{
     margin-top: 21px;
@@ -73,15 +92,6 @@
     box-sizing: border-box;
     width: 100%;
     max-width: 540px;
-}
-.settings .form-control .jq-selectbox{
-    max-width: 540px; 
-}
-.information-block .btn.btn-lightgreen{
-    padding: 15px 30px;
-    margin-top: 25px;
-    margin-bottom: 40px;
-    margin-left: 225px;
 }
 @media (max-width: 1199px){
     .settings .form-control .form-default,
