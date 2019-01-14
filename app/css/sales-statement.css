@@ -1,0 +1,26 @@
+.table-sales thead th {
+	background-color: #455a64;
+	color: #fff;
+	font-weight: 400;
+	padding: 22px 0;
+}
+.table-sales thead tr th:first-child {
+    text-align: center;
+}
+.table-sales tbody tr td {
+	padding: 15px 0;
+}
+.table-sales tbody td:first-child {
+	text-align: center;
+}
+.table-sales tbody tr td:nth-child(3){
+    color: #333;
+    font-weight: bold;
+}
+.sales-statement .content-border{
+    padding-bottom: 77px;
+}
+.sales-statement .total-sale{
+    font-size: 30px;
+    margin-top: 80px;
+}

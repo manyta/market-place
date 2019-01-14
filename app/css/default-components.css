@@ -321,8 +321,8 @@
     color: #707070;
 }
 .btn-shadow{
-    -webkit-box-shadow: 0px 1px 2px rgba(69, 90, 100, 0.75);
-    box-shadow: 0px 1px 2px rgba(69, 90, 100, 0.75);  
+    -webkit-box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);
+    box-shadow: 0 1px 2px rgba(69, 90, 100, 0.75);  
 }
 .btn-radius{
     border-radius: 4px;     
@@ -334,8 +334,8 @@
 .btn.btn-main-items{
     padding: 19px 32px;
     font-weight: 400;
-    -webkit-box-shadow: 0px 1px 3px rgba(204, 216, 228, 0.75);
-    box-shadow: 0px 1px 3px rgba(204, 216, 228, 0.75);
+    -webkit-box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
+    box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
 }
 .btn.btn-main-items:hover{
     background-color: #8bc34a;
@@ -343,8 +343,8 @@
 }
 
 .btn.btn-big:hover{
-    -webkit-box-shadow: 0px 1px 17px rgba(204, 216, 228, 0.75);
-    box-shadow: 0px 1px 17px rgba(204, 216, 228, 0.75);
+    -webkit-box-shadow: 0 1px 17px rgba(204, 216, 228, 0.75);
+    box-shadow: 0 1px 17px rgba(204, 216, 228, 0.75);
 }
 .btn.btn-big{
     padding: 25px 43px;
@@ -574,8 +574,8 @@
     height: 56px;
     border: 1px solid transparent;
     border-radius: 4px;
-    -webkit-box-shadow: 0px 1px 10px rgba(124, 178, 64, 0.75);
-    box-shadow: 0px 1px 10px rgba(124, 178, 64, 0.75);
+    -webkit-box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
+    box-shadow: 0 1px 10px rgba(124, 178, 64, 0.75);
     background-color: #fff;
     padding: 0 45px 0 25px;
     font: 500 14px/1 'Roboto', sans-serif;
@@ -745,48 +745,8 @@ input[type="file"] + label{
 .table tbody tr + tr td {
 	border-top: 1px solid #eee;
 }
-.table tbody tr:nth-child(even) {
+.table tbody tr:nth-child(even){
 	background-color: #fbfbfb;
-}
-.table-sales thead th {
-	background-color: #455a64;
-	color: #fff;
-	font-weight: 400;
-	padding: 22px 0;
-}
-.table-sales thead th:first-child {
-	text-align: center;
-}
-.table-sales tbody td {
-	padding: 15px 0;
-}
-.table-sales tbody td:first-child {
-	text-align: center;
-}
-.table-sales .avatar {
-	background-color: #b5b5b5;
-	border-radius: 50%;
-	width: 30px;
-	height: 30px;
-	overflow: hidden;
-}
-.withdrawl-table td, th{
-	padding: 15px 20px;
-}
-.withdrawl-table tr>*:first-child {
-	font-weight: 500
-}
-.withdrawl-table tr>*:nth-child(2) {
-	font-weight: 400;
-}
-.withdrawl-table tr>*:nth-child(3) {
-	font-weight: 700;
-}
-.withdrawl-table tr>*:nth-child(4) {
-	font-weight: 700;
-}
-.withdrawl-table tr>td:nth-child(4) {
-	color: #8bc34a;
 }
 /* ===== Tables end ===== */
 
@@ -805,8 +765,8 @@ input[type="file"] + label{
 .tags li>a:active,
 .tags li>a.active{
     background-color: #e74c3c;
-    -webkit-box-shadow: 0px 2px 5px rgba(202, 215, 228, 0.75);
-    box-shadow: 0px 2px 5px rgba(202, 215, 228, 0.75);
+    -webkit-box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
+    box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
     color: #fff;
 }
 
