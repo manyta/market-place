@@ -24,3 +24,34 @@
     font-size: 30px;
     margin-top: 80px;
 }
+.sales-statement input {
+    width: 135px;
+    height: 28px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    color: #444;
+    padding-left: 15px;
+}
+.sales-statement .datapicker-input i {
+    position: absolute;
+    bottom: 8px;
+    right: 9px;
+}
+.sales-statement .datapicker-input{
+    font-size: 12px;
+    width: 135px;
+    position: relative;
+}
+.sales-statement .datepicker label{
+    font-size: 12px;
+    margin: 0 10px;
+}
+.btn.btn-datepicker {
+    font-size: 12px;
+    padding: 9px 19px;
+    font-weight: 400;
+    margin-left: 13px;
+}
+.sales-statement .title-page{
+    padding: 17px 22px 17px 37px;
+}

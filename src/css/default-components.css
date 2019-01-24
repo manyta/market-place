@@ -63,6 +63,7 @@
 }
 .user-data{
     padding: 0 14px;
+    cursor: pointer;
 }
 .user-controls .user-data .text-green{
     color: #8bc34a;

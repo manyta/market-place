@@ -10,6 +10,9 @@
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
+    <!-- jQuery UI Style -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 
@@ -132,7 +135,7 @@
             <div class="row d-flex">
                 <div class="col-md-3">
                     <aside class="aside">
-                        <div class="aside-section d-flex flex-column">
+                        <div class="aside-section d-flex flex-column bg-white">
                             <span class="aside-title">Categories</span>
                             <ul class="aside-item">
                                 <li class="aside-list d-flex justify-content-between">
@@ -163,11 +166,12 @@
                             </ul>
                         </div>
                         <!--/ aside-section -->
-                        <div class="aside-section">
+                        <div class="aside-section price-range bg-white">
                             <span class="aside-title">Price Range</span>
+                            <div id="slider-range"></div>
                             <a href="" class="btn btn-green aside-btn"><i class="fa fa-search" aria-hidden="true"></i><span class="aside-btn-search">Search</span></a>
                         </div>
-                        <div class="aside-section d-flex flex-column">
+                        <div class="aside-section d-flex flex-column bg-white">
                             <div class="aside-title d-flex">
                                 <span>Top 10 Sellers</span>
                             </div>
@@ -1052,6 +1056,12 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
+
+<!-- jQueryUI -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<!-- Price-ringe -->
+<script src="js/price-range.js"></script>
 
 <!-- bPopup -->
 <script src="js/jquery.bpopup.min.js"></script>

@@ -33,6 +33,51 @@
 .aside-btn:hover {
     box-shadow: 0 16px 20px rgba(216, 216, 216, 0.75);
 }
+#slider-range{
+    margin: 50px 0;
+}
+#slider-range span{
+    outline: none;
+}
+#slider-range .min-value,
+#slider-range .max-value{
+    position: absolute;
+    bottom: -30px;
+    color: #78909c;
+    font: 400 15px/1 'Roboto', sans-serif;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.ui-widget-content,
+.ui-widget.ui-widget-content{
+    border: none;
+}
+.ui-widget-header{
+    background: #37474f;
+}
+.ui-widget-content{
+    background: #f2f5f8;
+}
+.ui-slider-horizontal{
+    height: 5px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default{
+    border: 3px solid #8bc34a;
+    background: #fff;
+}
+.ui-slider .ui-slider-handle{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.ui-slider-horizontal .ui-slider-handle{
+    margin-left: -2px;
+}
+.aside .aside-section.price-range .aside-btn{
+    margin-top: 0;
+}
 .aside-btn .aside-btn-search {
     margin-left: 8px;
 }
@@ -41,9 +86,6 @@
 }
 .aside .item-info-price {
     font-size: 16px;
-}
-.aside .item-wrap-aside .aside-btn {
-    margin-top: 40px;
 }
 .aside-item li:hover{
     color: #8bc34a;
@@ -95,7 +137,7 @@
     margin-left: 10px;
 }
 .change-icon:hover,
-.change-icon:active {
+.change-icon.active {
     color:#8bc34a;
 }
 /* ===== Content Section end =====*/

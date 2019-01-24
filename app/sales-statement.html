@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Sales Statement</title>
     <meta charset="UTF-8">
-    <title>Withdrawals</title>
 
     <!-- Fontawesome icons -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- jQuery UI Style -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
@@ -129,8 +131,22 @@
             </div>
             <!-- / container -->
             <div class="container">
-                <div class="title-page">
+                <div class="title-page d-flex align-items-center">
                     <span>Your Sales Statement</span>
+                    <div class="find d-flex ml-auto align-items-center">
+                        <div class="datepicker d-flex align-items-center">
+                          <div class="datapicker-input">
+                            <input type="text" id="from" name="from">
+                            <i class="fa fa-calendar txt-green"></i>
+                          </div>
+                          <label for="to">To</label>
+                          <div class="datapicker-input">
+                            <input type="text" id="to" name="to">
+                            <i class="fa fa-calendar txt-green"></i>
+                          </div>
+                        </div>
+                        <a href="" class="btn btn-datepicker btn-lightgreen">Find</a>          
+                    </div>
                 </div>
                 <div class="content-border">
                     <table class="table table-sales">
@@ -381,8 +397,15 @@
 
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
     <script src="js/jquery.slicknav.min.js"></script>
+
+    <!-- jQueryUI -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- Datepicker -->
+    <script src="js/datepicker.js"></script>
 
     <!-- bPopup -->
     <script src="js/jquery.bpopup.min.js"></script>
