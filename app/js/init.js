@@ -50,3 +50,24 @@ openModalsBtns.on('click', function () {
   $('.modal').bPopup();
 })
 
+// Open dropdown nav 
+// let nav = $('[data-open-dropdown]');
+let nav = $('.dropdown-container');
+nav.on('click', function(e) {
+  $(this).toggleClass('active');
+});
+
+// Switch grid cards (all-items)
+$('#grid-thumbs').on('click', function() {
+  $('.change-icon').removeClass('active');
+  $('#grid-thumbs').addClass('active');
+  $('.all-items-content .row').removeClass('flex-column');
+  $('.card.medium-card').removeClass('row-card');
+});
+$('#grid-list').on('click', function() {
+  $('.change-icon').removeClass('active');
+  $('#grid-list').addClass('active');
+  $('.all-items-content .row').addClass('flex-column');
+  $('.card.medium-card').addClass('row-card');  
+});
+

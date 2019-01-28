@@ -394,7 +394,8 @@
     font-weight: 700;
     font-size: 20px;
 }
-.card .card-description-wrapper .card-text-info{
+.card .card-description-wrapper .card-text-info,
+.card .card-description-wrapper .product-download-row-card{
     display: none;
 }
 .card .card-author-info{
@@ -491,6 +492,9 @@
     display: -ms-flexbox;
     display: flex;
     margin-top: 20px;
+}
+.all-items-content .row .card.row-card + .card.row-card {
+    margin-top: 30px;
 }
 /* ===== Card-Item End ===== */
 

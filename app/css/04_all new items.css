@@ -143,3 +143,23 @@
     color:#8bc34a;
 }
 /* ===== Content Section end =====*/
+/* =====  Card Row-Card start  ===== */
+.card.row-card .card-description-wrapper .product-download-row-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 15px;
+}
+.product-download-row-card li + li {
+    margin-left: 15px;
+}
+.product-download-bracket {
+    color: #8bc34a;
+    font-size: 16px;
+}
+.product-download-row-card .product-download-bracket::before {
+    content: '|';
+    color: #aeb4bb;
+    margin-right: 15px;
+}
+/* =====  Card Row-Card end  ===== */
